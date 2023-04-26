@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{ddd9d41c-48ae-4cf8-a8d4-ca68d2f2e331}</ProjectGuid>
+    <RootNamespace>TP2KESSELHANISCH</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\Articulos.cpp" />
+    <ClCompile Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\cAlquiler.cpp" />
+    <ClCompile Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\cArticulos.cpp" />
+    <ClCompile Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\cCarrito.cpp" />
+    <ClCompile Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\cCliente.cpp" />
+    <ClCompile Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\cCotillon.cpp" />
+    <ClCompile Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\cDisfraces.cpp" />
+    <ClCompile Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\cEmpleado.cpp" />
+    <ClCompile Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\cEncargado.cpp" />
+    <ClCompile Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\cGlobos.cpp" />
+    <ClCompile Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\cGolosinas.cpp" />
+    <ClCompile Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\cLocal.cpp" />
+    <ClCompile Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\cModoPago.cpp" />
+    <ClCompile Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\cPersona.cpp" />
+    <ClCompile Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\cReposteria.cpp" />
+    <ClCompile Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\cTrabajador.cpp" />
+    <ClCompile Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\cVajilla.cpp" />
+    <ClCompile Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\cVelas.cpp" />
+    <ClCompile Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\Source.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\cAlquiler.h" />
+    <ClInclude Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\cartel.h" />
+    <ClInclude Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\cArticulos.h" />
+    <ClInclude Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\cCarrito.h" />
+    <ClInclude Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\cCliente.h" />
+    <ClInclude Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\cCotillon.h" />
+    <ClInclude Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\cDisfraces.h" />
+    <ClInclude Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\cEmpleado.h" />
+    <ClInclude Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\cEncargado.h" />
+    <ClInclude Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\cGlobos.h" />
+    <ClInclude Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\cGolosinas.h" />
+    <ClInclude Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\cLocal.h" />
+    <ClInclude Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\cModoPago.h" />
+    <ClInclude Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\colores.h" />
+    <ClInclude Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\cotillon.h" />
+    <ClInclude Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\cPersona.h" />
+    <ClInclude Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\cReposteria.h" />
+    <ClInclude Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\cTrabajador.h" />
+    <ClInclude Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\cVajilla.h" />
+    <ClInclude Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\cVelas.h" />
+    <ClInclude Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\DecoracionC.h" />
+    <ClInclude Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\desempeñoT.h" />
+    <ClInclude Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\favoritos.h" />
+    <ClInclude Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\metodop.h" />
+    <ClInclude Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\TipoC.h" />
+    <ClInclude Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\TipoMolde.h" />
+    <ClInclude Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\TipoV.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
