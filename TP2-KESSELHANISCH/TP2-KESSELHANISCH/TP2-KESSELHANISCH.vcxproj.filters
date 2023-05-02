@@ -15,144 +15,159 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\Articulos.cpp">
+    <ClCompile Include="Model\Articulos.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\cAlquiler.cpp">
+    <ClCompile Include="Model\cAlquiler.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\cArticulos.cpp">
+    <ClCompile Include="Model\cArticulos.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\cCarrito.cpp">
+    <ClCompile Include="Model\cCarrito.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\cCliente.cpp">
+    <ClCompile Include="Model\cCliente.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\cCotillon.cpp">
+    <ClCompile Include="Model\cCotillon.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\cDisfraces.cpp">
+    <ClCompile Include="Model\cDisfraces.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\cEmpleado.cpp">
+    <ClCompile Include="Model\cEmpleado.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\cEncargado.cpp">
+    <ClCompile Include="Model\cEncargado.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\cGlobos.cpp">
+    <ClCompile Include="Model\cGlobos.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\cGolosinas.cpp">
+    <ClCompile Include="Model\cGolosinas.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\cLocal.cpp">
+    <ClCompile Include="Model\cingreso.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\cModoPago.cpp">
+    <ClCompile Include="Model\cLocal.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\cPersona.cpp">
+    <ClCompile Include="Model\cModoPago.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\cReposteria.cpp">
+    <ClCompile Include="Model\cPersona.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\cTrabajador.cpp">
+    <ClCompile Include="Model\cReposteria.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\cVajilla.cpp">
+    <ClCompile Include="Model\cTrabajador.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\cVelas.cpp">
+    <ClCompile Include="Model\cVajilla.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\Source.cpp">
+    <ClCompile Include="Model\cVelas.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\Source.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\Tipo.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\cAlquiler.h">
+    <ClInclude Include="Model\Articulos.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\cartel.h">
+    <ClInclude Include="Model\cAlquiler.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\cArticulos.h">
+    <ClInclude Include="Model\cartel.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\cCarrito.h">
+    <ClInclude Include="Model\cArticulos.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\cCliente.h">
+    <ClInclude Include="Model\cCarrito.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\cCotillon.h">
+    <ClInclude Include="Model\cCliente.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\cDisfraces.h">
+    <ClInclude Include="Model\cCotillon.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\cEmpleado.h">
+    <ClInclude Include="Model\cDisfraces.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\cEncargado.h">
+    <ClInclude Include="Model\cEmpleado.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\cGlobos.h">
+    <ClInclude Include="Model\cEncargado.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\cGolosinas.h">
+    <ClInclude Include="Model\cGlobos.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\cLocal.h">
+    <ClInclude Include="Model\cGolosinas.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\cModoPago.h">
+    <ClInclude Include="Model\cingreso.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\colores.h">
+    <ClInclude Include="Model\cLocal.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\cotillon.h">
+    <ClInclude Include="Model\cModoPago.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\cPersona.h">
+    <ClInclude Include="Model\colores.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\cReposteria.h">
+    <ClInclude Include="Model\cotillon.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\cTrabajador.h">
+    <ClInclude Include="Model\cPersona.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\cVajilla.h">
+    <ClInclude Include="Model\cReposteria.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\cVelas.h">
+    <ClInclude Include="Model\cTrabajador.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\DecoracionC.h">
+    <ClInclude Include="Model\cVajilla.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\desempeñoT.h">
+    <ClInclude Include="Model\cVelas.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\favoritos.h">
+    <ClInclude Include="Model\DecoracionC.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\metodop.h">
+    <ClInclude Include="Model\desempeñoT.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\TipoC.h">
+    <ClInclude Include="Model\favoritos.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\TipoMolde.h">
+    <ClInclude Include="Model\metodop.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Desktop\facu\LAB PROGRAMACION I\tp2\Model\TipoV.h">
+    <ClInclude Include="Model\Tipo.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\TipoC.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\TipoMolde.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\TipoV.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
   </ItemGroup>

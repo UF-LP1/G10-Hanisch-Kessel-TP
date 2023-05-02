@@ -2,14 +2,14 @@
 #include "CppUnitTest.h"
 
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
-#include "../LAB_PROGRAMACION_I/tp2/Model/cVajilla.h"
-#include "../LAB_PROGRAMACION_I/tp2/Model/cDisfraces.h"
-#include "../LAB_PROGRAMACION_I/tp2/Model/cGolosinas.h"
-#include "../LAB_PROGRAMACION_I/tp2/Model/cCotillon.h"
-#include "../LAB_PROGRAMACION_I/tp2/Model/cVelas.h"
-#include "../LAB_PROGRAMACION_I/tp2/Model/cGlobos.h"
-#include "../LAB_PROGRAMACION_I/tp2/Model/cArticulos.h"
-#include "../LAB_PROGRAMACION_I/tp2/Model/cCliente.h"
+#include "../TP2-KESSELHANISCH/Model/cVajilla.h"
+#include "../TP2-KESSELHANISCH/Model/cDisfraces.h"
+#include "../TP2-KESSELHANISCH/Model/cGolosinas.h"
+#include "../TP2-KESSELHANISCH/Model/cCotillon.h"
+#include "../TP2-KESSELHANISCH/Model/cVelas.h"
+#include "../TP2-KESSELHANISCH/Model/cGlobos.h"
+#include "../TP2-KESSELHANISCH/Model/cArticulos.h"
+#include "../TP2-KESSELHANISCH/Model/cCliente.h"
 
 
 namespace UnitTestTP2
