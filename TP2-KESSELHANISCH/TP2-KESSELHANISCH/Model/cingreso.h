@@ -17,7 +17,7 @@ public:
 /**
  * @param ID
  */
- cingreso(const string ID);
+ cingreso(time_t fecha_, const string _ID);
 
  ~cingreso();
 /**

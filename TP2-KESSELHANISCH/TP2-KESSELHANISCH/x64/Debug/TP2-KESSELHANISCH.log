@@ -1,0 +1,413 @@
+﻿  Articulos.cpp
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\Articulos.h(6,17): error C3646: 'comestibles': especificador de invalidación desconocido
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\Articulos.h(6,28): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\Articulos.h(7,13): error C3646: 'vajilla': especificador de invalidación desconocido
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\Articulos.h(7,20): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\Articulos.h(8,14): error C3646: 'cotillon': especificador de invalidación desconocido
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\Articulos.h(8,22): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\Articulos.h(10,25): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\Articulos.h(10,25): error C2533: 'Articulos': los constructores no permiten un tipo de valor devuelto
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\Articulos.h(13,17): error C2533: 'Articulos': los constructores no permiten un tipo de valor devuelto
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\Articulos.cpp(5,1): error C2653: 'cArticulos': no es un nombre de clase o espacio de nombres
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\Articulos.cpp(5,24): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\Articulos.cpp(5,25): warning C4508: 'cAticulos': la función debe devolver un valor; se supone que el tipo de valor devuelto es 'void'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\Articulos.cpp(6,37): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\Articulos.cpp(6,17): error C2533: 'Articulos::{ctor}': los constructores no permiten un tipo de valor devuelto
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\Articulos.cpp(10,17): error C2533: 'Articulos::{ctor}': los constructores no permiten un tipo de valor devuelto
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\Articulos.cpp(10,17): error C2084: la función 'Articulos::Articulos(void)' ya tiene un cuerpo
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\Articulos.cpp(6): message : vea la definición anterior de '{ctor}'
+  cAlquiler.cpp
+  cArticulos.cpp
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cArticulos.h(47,7): error C3872: '0xb1': este carácter no se permite en un identificador
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cArticulos.cpp(4,20): error C2678: '=' binario: no se encontró un operador que adopte un operando en la parte izquierda de tipo 'const std::string' (o bien no existe una conversión aceptable)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xstring(3304,32): message : puede ser 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(const _Elem)'
+          with
+          [
+              _Elem=char
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xstring(3296,32): message : o       'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(const _Elem *const )'
+          with
+          [
+              _Elem=char
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xstring(3244,32): message : o       'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xstring(3169,32): message : o       'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(std::initializer_list<_Elem>)'
+          with
+          [
+              _Elem=char
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xstring(3054,32): message : o       'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&) noexcept(<expr>)'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cArticulos.cpp(4,20): message : al hacer coincidir la lista de argumentos '(const std::string, std::string)'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cArticulos.cpp(7,27): error C2678: '=' binario: no se encontró un operador que adopte un operando en la parte izquierda de tipo 'const std::string' (o bien no existe una conversión aceptable)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xstring(3304,32): message : puede ser 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(const _Elem)'
+          with
+          [
+              _Elem=char
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xstring(3296,32): message : o       'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(const _Elem *const )'
+          with
+          [
+              _Elem=char
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xstring(3244,32): message : o       'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xstring(3169,32): message : o       'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(std::initializer_list<_Elem>)'
+          with
+          [
+              _Elem=char
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xstring(3054,32): message : o       'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&) noexcept(<expr>)'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cArticulos.cpp(7,27): message : al hacer coincidir la lista de argumentos '(const std::string, const std::string)'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cArticulos.cpp(8,18): error C2678: '=' binario: no se encontró un operador que adopte un operando en la parte izquierda de tipo 'const std::string' (o bien no existe una conversión aceptable)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xstring(3304,32): message : puede ser 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(const _Elem)'
+          with
+          [
+              _Elem=char
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xstring(3296,32): message : o       'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(const _Elem *const )'
+          with
+          [
+              _Elem=char
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xstring(3244,32): message : o       'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xstring(3169,32): message : o       'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(std::initializer_list<_Elem>)'
+          with
+          [
+              _Elem=char
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xstring(3054,32): message : o       'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&) noexcept(<expr>)'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cArticulos.cpp(8,18): message : al hacer coincidir la lista de argumentos '(const std::string, const std::string)'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cArticulos.cpp(70,19): error C3872: '0xb1': este carácter no se permite en un identificador
+  cCarrito.cpp
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cArticulos.h(47,7): error C3872: '0xb1': este carácter no se permite en un identificador
+  cCliente.cpp
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(8,8): error C3646: 'get_nombre': especificador de invalidación desconocido
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(8,18): error C2059: error de sintaxis: '('
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(8,20): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(10,17): error C2061: error de sintaxis: identificador 'string'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(12,8): error C3646: 'get_apellido': especificador de invalidación desconocido
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(12,20): error C2059: error de sintaxis: '('
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(12,22): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(14,19): error C2061: error de sintaxis: identificador 'string'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(16,8): error C3646: 'get_dni': especificador de invalidación desconocido
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(16,15): error C2059: error de sintaxis: '('
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(16,17): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(19,27): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(19,27): error C2146: error de sintaxis: falta ')' delante del identificador 'DNI'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(19,27): error C3646: 'DNI': especificador de invalidación desconocido
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(19,30): error C2059: error de sintaxis: ')'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(21,12): error C3646: 'Nombre': especificador de invalidación desconocido
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(21,18): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(22,12): error C3646: 'Apellido': especificador de invalidación desconocido
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(22,20): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(23,18): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(23,18): error C3646: 'DNI': especificador de invalidación desconocido
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cArticulos.h(47,7): error C3872: '0xb1': este carácter no se permite en un identificador
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cLocal.h(14,14): error C2535: 'cLocal::~cLocal(void)': función miembro ya definida o declarada
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cLocal.h(12): message : vea la declaración de 'cLocal::~cLocal'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cLocal.h(16,41): error C2535: 'std::string cLocal::RecibirLista(cArticulos *&)': función miembro ya definida o declarada
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cLocal.h(15): message : vea la declaración de 'cLocal::RecibirLista'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cCliente.h(26,71): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cCliente.h(26,71): error C2146: error de sintaxis: falta ')' delante del identificador 'Nombre_art'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cCliente.h(26,71): error C3646: 'Nombre_art': especificador de invalidación desconocido
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cCliente.h(26,96): error C3646: 'Marca': especificador de invalidación desconocido
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cCliente.h(26,101): error C2059: error de sintaxis: ')'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cCliente.h(26,89): error C2182: 'string': este uso de 'void' no es válido
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cCliente.h(26,102): warning C4228: se ha utilizado una extensión no estándar: se omiten los calificadores después de coma en la lista de declaradores
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cCliente.h(29,70): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cCliente.h(29,70): error C2146: error de sintaxis: falta ')' delante del identificador 'Nombre_art'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cCliente.h(29,70): error C3646: 'Nombre_art': especificador de invalidación desconocido
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cCliente.h(29,95): error C3646: 'Marca': especificador de invalidación desconocido
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cCliente.h(29,100): error C2059: error de sintaxis: ')'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cCliente.h(29,88): error C2182: 'string': este uso de 'void' no es válido
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cCliente.h(29,88): error C2086: 'int cCliente::string': nueva definición
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cCliente.h(29,101): warning C4228: se ha utilizado una extensión no estándar: se omiten los calificadores después de coma en la lista de declaradores
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cCliente.h(41,8): error C2327: 'cCliente::string': no es un nombre de tipo, elemento estático o enumerador
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cCliente.h(53,30): error C2327: 'cCliente::string': no es un nombre de tipo, elemento estático o enumerador
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cCliente.h(56,20): error C2327: 'cCliente::string': no es un nombre de tipo, elemento estático o enumerador
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cCliente.h(63,18): error C2327: 'cCliente::string': no es un nombre de tipo, elemento estático o enumerador
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cCliente.h(67,1): error C2059: error de sintaxis: '}'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cCliente.h(67,1): error C2143: error de sintaxis: falta ';' delante de '}'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cCliente.cpp(7,35): error C2143: error de sintaxis: falta ';' delante de '{'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cCliente.cpp(7,35): error C2447: '{': falta el encabezado de función (¿lista formal de estilo anterior?)
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cCliente.cpp(24,81): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cCliente.cpp(24,81): error C2146: error de sintaxis: falta ')' delante del identificador 'Nombre_art'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cCliente.cpp(24,81): error C3646: 'Nombre_art': especificador de invalidación desconocido
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cCliente.cpp(24,91): error C2761: "void cCliente::AgregarCarrito(float,unsigned int,const int)": no se permite la nueva declaración del miembro
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cCliente.cpp(24,99): error C2182: 'string': este uso de 'void' no es válido
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cCliente.cpp(24,93): warning C4228: se ha utilizado una extensión no estándar: se omiten los calificadores después de coma en la lista de declaradores
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cCliente.cpp(24,106): error C2146: error de sintaxis: falta ';' delante del identificador 'Marca'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cCliente.cpp(24,111): error C2059: error de sintaxis: ')'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cCliente.cpp(24,113): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cCliente.cpp(26,1): error C2062: tipo 'void' inesperado
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cCliente.cpp(26,112): error C2143: error de sintaxis: falta ';' delante de '{'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cCliente.cpp(26,112): error C2447: '{': falta el encabezado de función (¿lista formal de estilo anterior?)
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cCliente.cpp(41,5): error C2561: 'cCliente::get_modoPago': la función debe devolver un valor
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cCliente.cpp(40): message : vea la declaración de 'cCliente::get_modoPago'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cCliente.cpp(48,8): error C2872: 'string': símbolo ambiguo
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cCliente.cpp(24,99): message : puede ser 'int string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xstring(5186,7): message : o       'std::string'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cCliente.cpp(48,18): error C2143: error de sintaxis: falta ';' delante de 'cCliente::get_correo'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cCliente.cpp(48,28): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cCliente.cpp(48,1): error C2086: 'int string': nueva definición
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cCliente.cpp(24): message : vea la declaración de 'string'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cCliente.cpp(48,31): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cCliente.cpp(48,31): error C2556: 'int cCliente::get_correo(void)': la función sobrecargada solo se diferencia de 'std::string cCliente::get_correo(void)' por el tipo de valor devuelto
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cCliente.h(41): message : vea la declaración de 'cCliente::get_correo'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cCliente.cpp(48,18): error C2371: 'cCliente::get_correo': nueva definición; tipos básicos distintos
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cCliente.h(41): message : vea la declaración de 'cCliente::get_correo'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cCliente.cpp(76,40): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cCliente.cpp(76,40): error C2146: error de sintaxis: falta ')' delante del identificador 'Correo'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cCliente.cpp(76,40): error C3646: 'Correo': especificador de invalidación desconocido
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cCliente.cpp(76,46): error C2059: error de sintaxis: ')'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cCliente.cpp(76,16): error C2511: 'void cCliente::set_correo(const int)': la función miembro sobrecargada no se ha encontrado en 'cCliente'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cCliente.h(13): message : vea la declaración de 'cCliente'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cCliente.cpp(84,30): error C2761: "bool cCliente::Buscar(std::string)": no se permite la nueva declaración del miembro
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cCliente.cpp(84,23): error C2597: referencia no válida a miembro no static 'cCliente::string'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cCliente.h(26): message : vea la declaración de 'cCliente::string'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cCliente.cpp(84,30): error C2146: error de sintaxis: falta ')' delante del identificador 'Codigo'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cCliente.cpp(84,38): error C2143: error de sintaxis: falta ';' delante de '{'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cCliente.cpp(84,38): error C2447: '{': falta el encabezado de función (¿lista formal de estilo anterior?)
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cCliente.cpp(96,1): fatal  error C1004: se encontró un final de archivo no esperado
+  cCotillon.cpp
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cArticulos.h(47,7): error C3872: '0xb1': este carácter no se permite en un identificador
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cCotillon.cpp(5,23): error C2512: 'cArticulos': no hay disponible un constructor predeterminado adecuado
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cArticulos.h(5,7): message : vea la declaración de 'cArticulos'
+  cDisfraces.cpp
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cArticulos.h(47,7): error C3872: '0xb1': este carácter no se permite en un identificador
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cDisfraces.h(12,10): error C3872: '0xb1': este carácter no se permite en un identificador
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cDisfraces.h(18,10): error C3872: '0xb1': este carácter no se permite en un identificador
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cDisfraces.h(18,30): error C3872: '0xb1': este carácter no se permite en un identificador
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cDisfraces.h(22,10): error C3872: '0xb1': este carácter no se permite en un identificador
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cDisfraces.cpp(4,25): error C2512: 'cArticulos': no hay disponible un constructor predeterminado adecuado
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cArticulos.h(5,7): message : vea la declaración de 'cArticulos'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cDisfraces.cpp(12,18): error C2039: "set_tamañoD": no es un miembro de "cDisfraces"
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cDisfraces.h(8): message : vea la declaración de 'cDisfraces'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cDisfraces.cpp(22,18): error C2039: "get_tamañoD": no es un miembro de "cDisfraces"
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cDisfraces.h(8): message : vea la declaración de 'cDisfraces'
+  cEmpleado.cpp
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(8,8): error C3646: 'get_nombre': especificador de invalidación desconocido
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(8,18): error C2059: error de sintaxis: '('
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(8,20): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(10,17): error C2061: error de sintaxis: identificador 'string'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(12,8): error C3646: 'get_apellido': especificador de invalidación desconocido
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(12,20): error C2059: error de sintaxis: '('
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(12,22): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(14,19): error C2061: error de sintaxis: identificador 'string'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(16,8): error C3646: 'get_dni': especificador de invalidación desconocido
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(16,15): error C2059: error de sintaxis: '('
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(16,17): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(19,27): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(19,27): error C2146: error de sintaxis: falta ')' delante del identificador 'DNI'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(19,27): error C3646: 'DNI': especificador de invalidación desconocido
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(19,30): error C2059: error de sintaxis: ')'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(21,12): error C3646: 'Nombre': especificador de invalidación desconocido
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(21,18): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(22,12): error C3646: 'Apellido': especificador de invalidación desconocido
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(22,20): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(23,18): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(23,18): error C3646: 'DNI': especificador de invalidación desconocido
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cTrabajador.h(12,10): error C3872: '0xb1': este carácter no se permite en un identificador
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cTrabajador.h(12,24): error C3872: '0xb1': este carácter no se permite en un identificador
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cTrabajador.h(18,30): error C3872: '0xb1': este carácter no se permite en un identificador
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cTrabajador.h(21,25): error C2059: error de sintaxis: ')'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cTrabajador.h(21,26): error C2238: símbolos (token) inesperados delante de ';'
+  cEncargado.cpp
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(8,8): error C3646: 'get_nombre': especificador de invalidación desconocido
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(8,18): error C2059: error de sintaxis: '('
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(8,20): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(10,17): error C2061: error de sintaxis: identificador 'string'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(12,8): error C3646: 'get_apellido': especificador de invalidación desconocido
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(12,20): error C2059: error de sintaxis: '('
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(12,22): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(14,19): error C2061: error de sintaxis: identificador 'string'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(16,8): error C3646: 'get_dni': especificador de invalidación desconocido
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(16,15): error C2059: error de sintaxis: '('
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(16,17): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(19,27): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(19,27): error C2146: error de sintaxis: falta ')' delante del identificador 'DNI'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(19,27): error C3646: 'DNI': especificador de invalidación desconocido
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(19,30): error C2059: error de sintaxis: ')'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(21,12): error C3646: 'Nombre': especificador de invalidación desconocido
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(21,18): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(22,12): error C3646: 'Apellido': especificador de invalidación desconocido
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(22,20): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(23,18): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(23,18): error C3646: 'DNI': especificador de invalidación desconocido
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cTrabajador.h(12,10): error C3872: '0xb1': este carácter no se permite en un identificador
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cTrabajador.h(12,24): error C3872: '0xb1': este carácter no se permite en un identificador
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cTrabajador.h(18,30): error C3872: '0xb1': este carácter no se permite en un identificador
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cTrabajador.h(21,25): error C2059: error de sintaxis: ')'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cTrabajador.h(21,26): error C2238: símbolos (token) inesperados delante de ';'
+  cGlobos.cpp
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cArticulos.h(47,7): error C3872: '0xb1': este carácter no se permite en un identificador
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cVelas.h(11,12): error C3872: '0xb1': este carácter no se permite en un identificador
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cVelas.h(17,10): error C3872: '0xb1': este carácter no se permite en un identificador
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cVelas.h(17,32): error C3872: '0xb1': este carácter no se permite en un identificador
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cVelas.h(20,12): error C3872: '0xb1': este carácter no se permite en un identificador
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cGlobos.h(9,23): warning C4584: 'cGlobos': la clase base 'cArticulos' ya es una clase base de 'cVelas'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cArticulos.h(5): message : vea la declaración de 'cArticulos'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cVelas.h(8): message : vea la declaración de 'cVelas'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cGlobos.h(12,12): error C3872: '0xb1': este carácter no se permite en un identificador
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cGlobos.h(18,10): error C3872: '0xb1': este carácter no se permite en un identificador
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cGlobos.h(18,32): error C3872: '0xb1': este carácter no se permite en un identificador
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cGlobos.h(21,12): error C3872: '0xb1': este carácter no se permite en un identificador
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cGlobos.cpp(3,20): error C2512: 'cArticulos': no hay disponible un constructor predeterminado adecuado
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cArticulos.h(5,7): message : vea la declaración de 'cArticulos'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cGlobos.cpp(11,15): error C2039: "set_TamañoG": no es un miembro de "cGlobos"
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cGlobos.h(9): message : vea la declaración de 'cGlobos'
+  cGolosinas.cpp
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cArticulos.h(47,7): error C3872: '0xb1': este carácter no se permite en un identificador
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cGolosinas.cpp(4,26): error C2512: 'cArticulos': no hay disponible un constructor predeterminado adecuado
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cArticulos.h(5,7): message : vea la declaración de 'cArticulos'
+  cingreso.cpp
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cingreso.cpp(8,19): warning C4834: se descarta el valor devuelto de la función con el atributo "nodiscard"
+  cLocal.cpp
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cArticulos.h(47,7): error C3872: '0xb1': este carácter no se permite en un identificador
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cLocal.h(14,14): error C2535: 'cLocal::~cLocal(void)': función miembro ya definida o declarada
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cLocal.h(12): message : vea la declaración de 'cLocal::~cLocal'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cLocal.h(16,41): error C2535: 'std::string cLocal::RecibirLista(cArticulos *&)': función miembro ya definida o declarada
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cLocal.h(15): message : vea la declaración de 'cLocal::RecibirLista'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cLocal.cpp(6,47): error C2761: "std::string cLocal::RecibirLista(cArticulos *&)": no se permite la nueva declaración del miembro
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cLocal.cpp(9,14): error C2511: 'void cLocal::set_ModoPago(cLocal::modoPago)': la función miembro sobrecargada no se ha encontrado en 'cLocal'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cLocal.h(9): message : vea la declaración de 'cLocal'
+  cModoPago.cpp
+  cPersona.cpp
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(8,8): error C3646: 'get_nombre': especificador de invalidación desconocido
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(8,18): error C2059: error de sintaxis: '('
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(8,20): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(10,17): error C2061: error de sintaxis: identificador 'string'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(12,8): error C3646: 'get_apellido': especificador de invalidación desconocido
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(12,20): error C2059: error de sintaxis: '('
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(12,22): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(14,19): error C2061: error de sintaxis: identificador 'string'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(16,8): error C3646: 'get_dni': especificador de invalidación desconocido
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(16,15): error C2059: error de sintaxis: '('
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(16,17): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(19,27): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(19,27): error C2146: error de sintaxis: falta ')' delante del identificador 'DNI'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(19,27): error C3646: 'DNI': especificador de invalidación desconocido
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(19,30): error C2059: error de sintaxis: ')'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(21,12): error C3646: 'Nombre': especificador de invalidación desconocido
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(21,18): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(22,12): error C3646: 'Apellido': especificador de invalidación desconocido
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(22,20): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(23,18): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(23,18): error C3646: 'DNI': especificador de invalidación desconocido
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.cpp(3,18): error C2039: "get_nombre": no es un miembro de "cPersona"
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(5): message : vea la declaración de 'cPersona'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.cpp(3,28): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.cpp(3,28): error C2146: error de sintaxis: falta ';' delante del identificador 'get_nombre'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.cpp(3,31): error C2143: error de sintaxis: falta ';' delante de '{'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.cpp(3,31): error C2447: '{': falta el encabezado de función (¿lista formal de estilo anterior?)
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.cpp(7,34): error C2761: "void cPersona::set_nombre(void)": no se permite la nueva declaración del miembro
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.cpp(7,27): error C2597: referencia no válida a miembro no static 'cPersona::string'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(23): message : vea la declaración de 'cPersona::string'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.cpp(7,34): error C2146: error de sintaxis: falta ')' delante del identificador 'Nombre'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.cpp(7,42): error C2143: error de sintaxis: falta ';' delante de '{'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.cpp(7,42): error C2447: '{': falta el encabezado de función (¿lista formal de estilo anterior?)
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.cpp(11,18): error C2039: "get_apellido": no es un miembro de "cPersona"
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(5): message : vea la declaración de 'cPersona'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.cpp(11,30): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.cpp(11,1): error C2086: 'int string': nueva definición
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.cpp(3): message : vea la declaración de 'string'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.cpp(11,30): error C2146: error de sintaxis: falta ';' delante del identificador 'get_apellido'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.cpp(11,33): error C2143: error de sintaxis: falta ';' delante de '{'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.cpp(11,33): error C2447: '{': falta el encabezado de función (¿lista formal de estilo anterior?)
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.cpp(15,36): error C2761: "void cPersona::set_apellido(void)": no se permite la nueva declaración del miembro
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.cpp(15,29): error C2597: referencia no válida a miembro no static 'cPersona::string'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(23): message : vea la declaración de 'cPersona::string'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.cpp(15,36): error C2146: error de sintaxis: falta ')' delante del identificador 'Apellido'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.cpp(15,46): error C2143: error de sintaxis: falta ';' delante de '{'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.cpp(15,46): error C2447: '{': falta el encabezado de función (¿lista formal de estilo anterior?)
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.cpp(19,18): error C2039: "get_dni": no es un miembro de "cPersona"
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(5): message : vea la declaración de 'cPersona'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.cpp(19,25): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.cpp(19,1): error C2086: 'int string': nueva definición
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.cpp(3): message : vea la declaración de 'string'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.cpp(19,25): error C2146: error de sintaxis: falta ';' delante del identificador 'get_dni'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.cpp(19,28): error C2143: error de sintaxis: falta ';' delante de '{'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.cpp(19,28): error C2447: '{': falta el encabezado de función (¿lista formal de estilo anterior?)
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.cpp(23,37): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.cpp(23,37): error C2146: error de sintaxis: falta ')' delante del identificador 'DNI'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.cpp(23,37): error C3646: 'DNI': especificador de invalidación desconocido
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.cpp(23,40): error C2059: error de sintaxis: ')'
+  cReposteria.cpp
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cArticulos.h(47,7): error C3872: '0xb1': este carácter no se permite en un identificador
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cReposteria.cpp(3,27): error C2512: 'cArticulos': no hay disponible un constructor predeterminado adecuado
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cArticulos.h(5,7): message : vea la declaración de 'cArticulos'
+  cTrabajador.cpp
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(8,8): error C3646: 'get_nombre': especificador de invalidación desconocido
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(8,18): error C2059: error de sintaxis: '('
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(8,20): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(10,17): error C2061: error de sintaxis: identificador 'string'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(12,8): error C3646: 'get_apellido': especificador de invalidación desconocido
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(12,20): error C2059: error de sintaxis: '('
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(12,22): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(14,19): error C2061: error de sintaxis: identificador 'string'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(16,8): error C3646: 'get_dni': especificador de invalidación desconocido
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(16,15): error C2059: error de sintaxis: '('
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(16,17): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(19,27): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(19,27): error C2146: error de sintaxis: falta ')' delante del identificador 'DNI'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(19,27): error C3646: 'DNI': especificador de invalidación desconocido
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(19,30): error C2059: error de sintaxis: ')'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(21,12): error C3646: 'Nombre': especificador de invalidación desconocido
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(21,18): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(22,12): error C3646: 'Apellido': especificador de invalidación desconocido
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(22,20): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(23,18): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cPersona.h(23,18): error C3646: 'DNI': especificador de invalidación desconocido
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cTrabajador.h(12,10): error C3872: '0xb1': este carácter no se permite en un identificador
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cTrabajador.h(12,24): error C3872: '0xb1': este carácter no se permite en un identificador
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cTrabajador.h(18,30): error C3872: '0xb1': este carácter no se permite en un identificador
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cTrabajador.h(21,25): error C2059: error de sintaxis: ')'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cTrabajador.h(21,26): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cTrabajador.cpp(3,33): error C2556: 'float cTrabajador::get_sueldo(void)': la función sobrecargada solo se diferencia de 'int cTrabajador::get_sueldo(void)' por el tipo de valor devuelto
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cTrabajador.h(20): message : vea la declaración de 'cTrabajador::get_sueldo'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cTrabajador.cpp(3,20): error C2371: 'cTrabajador::get_sueldo': nueva definición; tipos básicos distintos
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cTrabajador.h(20): message : vea la declaración de 'cTrabajador::get_sueldo'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cTrabajador.cpp(7,39): warning C4076: "unsigned": no se puede utilizar con el tipo "float"
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cTrabajador.cpp(7,19): error C2511: 'void cTrabajador::set_sueldo(unsigned int)': la función miembro sobrecargada no se ha encontrado en 'cTrabajador'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cTrabajador.h(9): message : vea la declaración de 'cTrabajador'
+  cVajilla.cpp
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cArticulos.h(47,7): error C3872: '0xb1': este carácter no se permite en un identificador
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cVajilla.h(25,20): error C2059: error de sintaxis: ')'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cVajilla.h(25,21): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cVajilla.h(28,24): error C2059: error de sintaxis: ')'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cVajilla.h(28,25): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cVajilla.cpp(3,22): error C2512: 'cArticulos': no hay disponible un constructor predeterminado adecuado
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cArticulos.h(5,7): message : vea la declaración de 'cArticulos'
+  cVelas.cpp
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cArticulos.h(47,7): error C3872: '0xb1': este carácter no se permite en un identificador
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cVelas.h(11,12): error C3872: '0xb1': este carácter no se permite en un identificador
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cVelas.h(17,10): error C3872: '0xb1': este carácter no se permite en un identificador
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cVelas.h(17,32): error C3872: '0xb1': este carácter no se permite en un identificador
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cVelas.h(20,12): error C3872: '0xb1': este carácter no se permite en un identificador
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cVelas.cpp(3,17): error C2512: 'cArticulos': no hay disponible un constructor predeterminado adecuado
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cArticulos.h(5,7): message : vea la declaración de 'cArticulos'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cVelas.cpp(10,14): error C2039: "set_TamañoV": no es un miembro de "cVelas"
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cVelas.h(8): message : vea la declaración de 'cVelas'
+  Source.cpp
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cArticulos.h(47,7): error C3872: '0xb1': este carácter no se permite en un identificador
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cLocal.h(14,14): error C2535: 'cLocal::~cLocal(void)': función miembro ya definida o declarada
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cLocal.h(12): message : vea la declaración de 'cLocal::~cLocal'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cLocal.h(16,41): error C2535: 'std::string cLocal::RecibirLista(cArticulos *&)': función miembro ya definida o declarada
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cLocal.h(15): message : vea la declaración de 'cLocal::RecibirLista'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\Source.cpp(10,59): error C2661: 'cArticulos::cArticulos': ninguna función sobrecargada acepta 5 argumentos
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\Source.cpp(11,65): error C2661: 'cArticulos::cArticulos': ninguna función sobrecargada acepta 5 argumentos
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\Source.cpp(12,63): error C2661: 'cArticulos::cArticulos': ninguna función sobrecargada acepta 5 argumentos
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\Source.cpp(13,68): error C2661: 'cArticulos::cArticulos': ninguna función sobrecargada acepta 5 argumentos
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\Source.cpp(14,63): error C2661: 'cArticulos::cArticulos': ninguna función sobrecargada acepta 5 argumentos
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\Source.cpp(15,64): error C2661: 'cArticulos::cArticulos': ninguna función sobrecargada acepta 5 argumentos
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\Source.cpp(16,66): error C2661: 'cArticulos::cArticulos': ninguna función sobrecargada acepta 5 argumentos
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\Source.cpp(26,18): error C2665: 'cLocal::cLocal': ninguna de las 3 sobrecargas pudo convertir todos los tipos de argumento
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cLocal.h(42,1): message : puede ser 'cLocal::cLocal(const cLocal &)'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cLocal.h(13,5): message : o       'cLocal::cLocal(std::list<cArticulos *,std::allocator<cArticulos *>>)'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\Source.cpp(26,14): message : 'cLocal::cLocal(std::list<cArticulos *,std::allocator<cArticulos *>>)': el argumento 1 no puede convertirse de 'std::list<cArticulos,std::allocator<cArticulos>>' a 'std::list<cArticulos *,std::allocator<cArticulos *>>'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\Source.cpp(26,15): message : No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cLocal.h(13,5): message : vea la declaración de 'cLocal::cLocal'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\Source.cpp(26,18): message : al hacer coincidir la lista de argumentos '(std::list<cArticulos,std::allocator<cArticulos>>)'
+  Generando código...
+  Compilando...
+  Tipo.cpp
+  Generando código...

@@ -11,7 +11,7 @@ protected:
     const string Nombre_art;
     const string Marca;
 public: 
-    cArticulos(string, unsigned int, float, int, const string, const string);
+    cArticulos(string codigo, unsigned int cantidad, float precio, int stock, const string nombre_art, const string marca);
     ~cArticulos();
 
 string get_codigo();

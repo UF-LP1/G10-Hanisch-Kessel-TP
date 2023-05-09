@@ -18,3 +18,12 @@ string cCarrito::get_productos() {
 int cCarrito::get_cant_prod() {
     return NULL;
 }
+void cCarrito::set_total(float Total) {
+
+}
+void cCarrito::set_productos(string Productos) {
+
+}
+void cCarrito::set_cant_prod(unsigned int Cant_prod) {
+
+}

@@ -1,12 +1,18 @@
 #include <iostream>
 #include "..\Model\cArticulos.h"
 #include "..\Model\cLocal.h"
+#include "..\Model\cCliente.h"
+#include "..\Model\cAlquiler.h"
+#include "..\Model\cCarrito.h"
+#include "..\Model\cCotillon.h"
+#include "..\Model\cPersona.h"
+#include "..\Model\cModoPago.h"
 #include <list>
 
 using namespace std;
 
 int main() {
-	list <cArticulos> Art;
+	list <cArticulos*> Art;
 	cArticulos cVajilla("A100",10,10.1,"plato","tuscubiertos");
 	cArticulos cDisfraces("A200", 30, 10.2, "vestido", "disfrazate");
 	cArticulos cGlobos("A300", 707, 50.6, "globo rojo", "inflalo");
@@ -22,7 +28,7 @@ int main() {
 	Art.push_back(cCotillon);
 	Art.push_back(cReposteria);
 	Art.push_back(cGolosinas);
-
 	cLocal local(Art);
+	cCliente Buscar(Codigo);
 
 }

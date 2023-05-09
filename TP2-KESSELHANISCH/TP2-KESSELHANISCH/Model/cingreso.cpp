@@ -1,12 +1,12 @@
 #include "cingreso.h"
 
-cingreso::cingreso(const string _ID):ID(_ID)
+cingreso::cingreso(time_t fecha_, const string _ID)
 {
-    this->fecha = NULL;
+    this->fecha = fecha_ ;
+    this->ID = _ID;
 }
 cingreso::~cingreso(){
-    this->ID.empty();
-    this->fecha = NULL;
+    
 }
 
 

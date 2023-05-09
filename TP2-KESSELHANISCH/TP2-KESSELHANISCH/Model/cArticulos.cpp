@@ -1,11 +1,12 @@
 #include "cArticulos.h"
 
-cArticulos::cArticulos(string codigo, unsigned int cantidad, float precio, int stock, const string nombreart, const string marca){
+cArticulos::cArticulos(string codigo, unsigned int cantidad, float precio, int stock, const string nombre_art, const string marca){
     Codigo = codigo;
     Cantidad = cantidad;
     Stock = stock;
-    Nombre_art = nombreart;
+    Nombre_art = nombre_art;
     Marca = marca; 
+    Precio = precio;
 }
 string cArticulos::get_codigo() {
     return "";
