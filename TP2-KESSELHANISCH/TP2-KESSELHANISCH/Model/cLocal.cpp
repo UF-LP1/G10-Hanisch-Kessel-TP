@@ -3,7 +3,8 @@
 
 cLocal::cLocal(){}
 cLocal::cLocal(list<cArticulos*> Art) {}
-string  cLocal::RecibirLista(cArticulos* &Art);
+
+string cLocal::RecibirLista(cArticulos* &Art);
 void cLocal::set_nombre_C(string Nombre_C){}
 string cLocal::get_nombre_c(){}
 void cLocal::set_ModoPago(enum modoPago){}
@@ -18,7 +19,7 @@ void cLocal::AbrirLocal(time_t horario_ap) {
 
 
 void cLocal::CerrarLocal(time_t horario_fin) {
-
+    ...;
 }
 
 

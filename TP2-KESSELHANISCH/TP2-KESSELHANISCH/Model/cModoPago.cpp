@@ -1,9 +1,9 @@
 #include "cModoPago.h"
 
-void cModoPago::get_modoPago() {
+void cModoPago::set_modoPago(enum metodop) {
     return;
 }
 
-void cModoPago::set_modoPago(enum metodo) {
+metodop cModoPago::get_modoPago() {
     return;
 }

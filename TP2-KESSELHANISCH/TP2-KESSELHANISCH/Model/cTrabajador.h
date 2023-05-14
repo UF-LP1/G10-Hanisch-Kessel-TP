@@ -15,10 +15,10 @@ public:
     ~cTrabajador();
 
     void set_sueldo(float Sueldo);
-    void set_desempenio(enum desempeñoT);
+    float get_sueldo();
 
-    int get_sueldo();
-    enum get_desempenio();
+    void set_desempenio(enum desempeñoT);
+    desempeñoT get_desempenio();
 };
 
 #endif //_CTRABAJADOR_H

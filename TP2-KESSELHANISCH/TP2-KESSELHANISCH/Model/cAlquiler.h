@@ -10,6 +10,7 @@ public:
 time_t get_Tiempo();
 
 void set_Tiempo(time_t tiempo);
+
 private: 
     bool anticipacion;
     bool BuenEstado;

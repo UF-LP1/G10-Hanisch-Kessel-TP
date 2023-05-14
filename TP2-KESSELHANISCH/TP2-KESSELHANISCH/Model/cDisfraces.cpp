@@ -13,13 +13,13 @@ void cDisfraces::set_tamañoD(bool tamañoD) {
 
 }
 
-void cDisfraces::get_alquila() {
+bool cDisfraces::get_alquila() {
 
 }
-void cDisfraces::get_encargo() {
+bool cDisfraces::get_encargo() {
 
 }
-void cDisfraces::get_tamañoD() {
+bool cDisfraces::get_tamañoD() {
 
 }
 

@@ -19,7 +19,6 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Model\Articulos.cpp" />
     <ClCompile Include="Model\cAlquiler.cpp" />
     <ClCompile Include="Model\cArticulos.cpp" />
     <ClCompile Include="Model\cCarrito.cpp" />
@@ -30,7 +29,6 @@
     <ClCompile Include="Model\cEncargado.cpp" />
     <ClCompile Include="Model\cGlobos.cpp" />
     <ClCompile Include="Model\cGolosinas.cpp" />
-    <ClCompile Include="Model\cingreso.cpp" />
     <ClCompile Include="Model\cLocal.cpp" />
     <ClCompile Include="Model\cModoPago.cpp" />
     <ClCompile Include="Model\cPersona.cpp" />
@@ -39,10 +37,8 @@
     <ClCompile Include="Model\cVajilla.cpp" />
     <ClCompile Include="Model\cVelas.cpp" />
     <ClCompile Include="Model\Source.cpp" />
-    <ClCompile Include="Model\Tipo.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Model\Articulos.h" />
     <ClInclude Include="Model\cAlquiler.h" />
     <ClInclude Include="Model\cartel.h" />
     <ClInclude Include="Model\cArticulos.h" />
@@ -54,7 +50,6 @@
     <ClInclude Include="Model\cEncargado.h" />
     <ClInclude Include="Model\cGlobos.h" />
     <ClInclude Include="Model\cGolosinas.h" />
-    <ClInclude Include="Model\cingreso.h" />
     <ClInclude Include="Model\cLocal.h" />
     <ClInclude Include="Model\cModoPago.h" />
     <ClInclude Include="Model\colores.h" />
@@ -68,7 +63,6 @@
     <ClInclude Include="Model\desempeñoT.h" />
     <ClInclude Include="Model\favoritos.h" />
     <ClInclude Include="Model\metodop.h" />
-    <ClInclude Include="Model\Tipo.h" />
     <ClInclude Include="Model\TipoC.h" />
     <ClInclude Include="Model\TipoMolde.h" />
     <ClInclude Include="Model\TipoV.h" />

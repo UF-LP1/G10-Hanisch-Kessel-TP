@@ -6,4 +6,5 @@ cEmpleado::cEmpleado() {
 void cEmpleado::AtenderCliente(int NroCliente) {
     return;
 }
+ 
 

@@ -12,10 +12,12 @@ private:
 public:
     cCotillon();
     ~cCotillon();
+
     void set_tipoC(TipoC TipoCotillon);
+    TipoC get_tipoC();
+
     void set_Cartel(cartel Cartel);
-    void get_tipoC();
-    void get_Cartel();
+    cartel get_Cartel();
 };
 
 #endif //_CCOTILLON_H

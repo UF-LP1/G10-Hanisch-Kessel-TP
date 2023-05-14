@@ -4,7 +4,7 @@
 #include "cCliente.h"
 
 
-cCliente::cCliente(int NroCliente){}
+cCliente::cCliente(const int NroCliente){}
 
 void cCliente::disfraz(bool Disfraz) {
     return ;
@@ -61,7 +61,7 @@ void cCliente::set_regalo(bool Regalo) {
     return;
 }
 
-void cCliente::set_disfrraz(bool Disfraz) {
+void cCliente::set_disfraz(bool Disfraz) {
     return;
 }
 

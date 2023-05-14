@@ -1,6 +1,7 @@
 
 #ifndef _CCLIENTE_H
 #define _CCLIENTE_H
+
 #include<string>
 #include "cPersona.h"
 #include "cModoPago.h"
@@ -15,45 +16,36 @@ public:
     cCliente(const int NroCliente);
     ~cCliente();
 
- void disfraz(bool Disfraz);
+void disfraz(bool Disfraz);
 void Pagar(float Precio);
-    
 void NroFila();
-    
 void Impresion();
-    
-
 void AgregarCarrito(float Precio, unsigned int Cantidad, const string Nombre_art, const string Marca);
-    
-
 void QuitarCarrito(float Precio, unsigned int Cantidad, const string Nombre_art, const string Marca);
-    
-int get_nroCliente();
-    
-bool get_regalo();
-    
-bool get_disfraz();
-    
-cModoPago get_modoPago();
-    
-int get_dias_alquiler();
-    
-string get_correo();
-    
-bool get_imagen();
-    
-
+  
 void set_nroCliente(const int NroCliente);
-    
+int get_nroCliente();
 
 void set_regalo(bool Regalo);
-void set_disfrraz(bool Disfraz);
+bool get_regalo();
+
+void set_disfraz(bool Disfraz);
+bool get_disfraz();
+
 void set_modoPago(cModoPago Modo_pago );
+cModoPago get_modoPago();
+
 void set_dias_alquiler(unsigned int Dias_alquiler);
+int get_dias_alquiler();
+
 void set_correo(const string Correo);
+string get_correo();
+
 void set_imagen(bool Imagen);
+bool get_imagen();
 
 bool Buscar(string codigo);
+
 private: 
     int NroCliente;
     bool Regalo;
@@ -64,5 +56,4 @@ private:
     bool Imagen;
     list<cArticulos>Art;
 };
-}
 #endif //_CCLIENTE_H

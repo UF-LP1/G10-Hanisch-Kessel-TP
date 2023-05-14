@@ -13,7 +13,7 @@ public:
     cLocal(list<cArticulos*> Art);
     ~cLocal();
   string  RecibirLista(cArticulos* &Art);
-  string  RecibirLista(cArticulos* &Art);
+
 void AbrirLocal(time_t horario_ap);
     
 

@@ -15,10 +15,10 @@ public:
     ~cReposteria();
     
     void set_tipomolde(enum TipoMolde);
-    void set_decoracionC(enum DecoracionC);
+    TipoMolde get_tipomolde();
 
-    void get_tipomolde();
-    void get_decoracionC();
+    void set_decoracionC(enum DecoracionC);
+    DecoracionC get_decoracionC();
 };
 
 #endif //_CREPOSTERIA_H

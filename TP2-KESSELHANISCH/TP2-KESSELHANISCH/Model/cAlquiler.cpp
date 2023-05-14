@@ -2,7 +2,7 @@
 
 cAlquiler::cAlquiler() {}
     time_t get_Tiempo() {
-        return NULL;
+     
     }
 
 

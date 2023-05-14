@@ -14,9 +14,9 @@ public:
     ~cVelas();
 
     void set_ColorV(string colorV);
-    void set_TamañoV(string tamañoV);
-
     string get_ColorG();
+
+    void set_TamañoV(string tamañoV);
     string get_TamañoG();
 };
 

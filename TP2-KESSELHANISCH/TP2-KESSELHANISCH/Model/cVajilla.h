@@ -17,15 +17,18 @@ public:
     ~cVajilla();
 
     void set_tipoV(enum TipoV);
-    void set_decoracionV(bool DecoracionV);
-    void set_Colores(string colores);
-    void set_Favoritos(enum favoritos);
-    void set_Personalizado(bool personalizado);
+    TipoV get_tipoV();
 
-    enum get_tipoV();
+    void set_decoracionV(bool DecoracionV);
     bool get_decoracionV();
+
+    void set_Colores(string colores);
     string get_Colores();
-    enum get_Favoritos();
+
+    void set_Favoritos(enum favoritos);
+    favoritos get_Favoritos();
+
+    void set_Personalizado(bool personalizado);
     bool get_Personalizado();
 };
 
