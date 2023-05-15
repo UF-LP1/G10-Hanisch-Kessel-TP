@@ -6,7 +6,7 @@ cEncargado::cEncargado() {
 
 }
 void cEncargado::CobrarCliente(float total) {
-
+ 
 }
 
 void cEncargado::EnvolverRegalo() {

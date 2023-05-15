@@ -13,11 +13,11 @@ public:
     cVelas();
     ~cVelas();
 
-    void set_ColorV(string colorV);
-    string get_ColorG();
+    void set_ColorV(string ncolorV);
+    string get_ColorV();
 
     void set_TamañoV(string tamañoV);
-    string get_TamañoG();
+    string get_TamañoV();
 };
 
 #endif 

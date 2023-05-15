@@ -17,10 +17,9 @@ public:
     void set_encargo(bool encargo);
     void set_tamañoD(bool tamañoD);
 
-    void get_alquila();
-    void get_encargo();
-    void get_tamañoD();
-
+    bool get_alquila();
+    bool get_encargo();
+    bool get_tamañoD();
 
 };
 

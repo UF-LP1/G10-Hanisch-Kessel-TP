@@ -26,58 +26,60 @@ void cCliente::AgregarCarrito(float Precio, unsigned int Cantidad, const string 
 void cCliente::QuitarCarrito(float Precio, unsigned int Cantidad, const string Nombre_art, const string Marca) {}
 
  int cCliente::get_nroCliente() {
-    return 0;
+    return this->NroCliente;
  }
 
 bool cCliente::get_regalo() {
-    return false;
+    return this->Regalo;
 }
 
 bool cCliente::get_disfraz() {
-    return false;
+    return this->Disfraz;
 }
 
 cModoPago cCliente::get_modoPago() {
-    return null;
+    return this->Modo_pago;
 }
 
 int cCliente::get_dias_alquiler() {
-    return 0;
+    return this->Dias_alquiler;
 }
 
 string cCliente::get_correo() {
-    return "";
+    return this->Correo;
 }
 
 bool cCliente::get_imagen() {
-    return false;
+    return this->Imagen;
 }
 
 void cCliente::set_nroCliente( int NroCliente) {
+    this->NroCliente = NroCliente;
     return;
 }
 
 void cCliente::set_regalo(bool Regalo) {
+    this->Regalo = Regalo;
     return;
 }
 
 void cCliente::set_disfraz(bool Disfraz) {
+    this->Disfraz = Disfraz;
     return;
 }
 
 void cCliente::set_modoPago(cModoPago Modo_pago ) {
+    this->Modo_pago = Modo_pago;
     return;
 }
 
 void cCliente::set_dias_alquiler(unsigned int Dias_alquiler) {
-    return;
-}
-
-void cCliente::set_correo(const string Correo) {
+    this->Dias_alquiler = Dias_alquiler;
     return;
 }
 
 void cCliente::set_imagen(bool Imagen) {
+    this->Imagen = Imagen;
     return;
 }
 

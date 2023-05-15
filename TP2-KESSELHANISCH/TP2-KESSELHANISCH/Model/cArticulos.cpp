@@ -1,60 +1,48 @@
 #include "cArticulos.h"
 
-cArticulos::cArticulos(const string codigo, unsigned int cantidad, float precio, int stock, const string nombre_art, const string marca){
-    Codigo = codigo;
-    Cantidad = cantidad;
-    Stock = stock;
-    Nombre_art = nombre_art;
-    Marca = marca; 
-    Precio = precio;
+cArticulos::cArticulos(const string ncodigo, unsigned int ncantidad, float nprecio, int nstock, const string nnombre_art, const string marca){
+    Cantidad = ncantidad;
+    Stock = nstock;
+    Precio = nprecio;
 }
 
-void cArticulos::set_codigo(const string Codigo) {
-
-}
 string cArticulos::get_codigo() {
-    return ;
+    return this->Codigo ;
 }
 
-void cArticulos::set_cantidad(unsigned int Cantidad) {
-    return;
+void cArticulos::set_cantidad(unsigned int nCantidad) {
+     this->Cantidad=nCantidad;
+     return;
 }
 
 int cArticulos::get_cantidad() {
-    return 0;
+    return this->Cantidad;
 }
 
-void cArticulos::set_precio(float Precio) {
-    return;
+void cArticulos::set_precio(float nPrecio) {
+     this->Precio=nPrecio;
+     return;
 }
 
 float cArticulos::get_precio() {
-    return 0.0;
+    return this->Precio;
 }
 
-void cArticulos::set_stock(int Stock) {
+void cArticulos::set_stock(int nStock) {
+    this->Stock = nStock;
     return;
 }
 int cArticulos::get_stock() {
-    return 0;
-}
-
-void cArticulos::set_nombre_art(const string Nombre_art) {
-    return;
+    return this->Stock;
 }
 
 string cArticulos::get_nombre_art() {
-    return "";
-}
-
-void cArticulos::set_marca(const string Marca) {
-    return;
+    return this->Nombre_art;
 }
 
 string cArticulos::get_marca() {
-    return "";
+    return this->Marca;
 }
-
 
 float cArticulos::Añadir_articulo() {
     return 0.0;

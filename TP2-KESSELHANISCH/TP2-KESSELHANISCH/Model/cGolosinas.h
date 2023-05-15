@@ -16,8 +16,8 @@ public:
     void set_TipoGO(string tipoGO); 
     void set_GramosGO(float gramosGO);
 
-    void get_TipoGO();
-    void get_GramosGO();
+    string get_TipoGO();
+    float get_GramosGO();
 
 };
 

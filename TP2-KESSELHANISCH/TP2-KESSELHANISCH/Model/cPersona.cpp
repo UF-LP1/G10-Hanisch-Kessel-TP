@@ -6,21 +6,23 @@ string cPersona::get_nombre() {
 }
 
 void cPersona::set_nombre(string Nombre) {
+    this->Nombre = Nombre;
     return;
 }
 
 string cPersona::get_apellido() {
-    return "";
+    return this->Nombre;
 }
 
 void cPersona::set_apellido(string Apellido) {
+    this->Apellido = Apellido;
     return;
 }
 
 string cPersona::get_dni() {
-    return "";
+    return this->Apellido;
 }
 
-void cPersona::set_dni(const string DNI) {
-    return;
+string cPersona::get_dni() {
+    return this->DNI;
 }

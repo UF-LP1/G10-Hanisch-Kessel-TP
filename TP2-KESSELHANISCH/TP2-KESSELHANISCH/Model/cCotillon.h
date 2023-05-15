@@ -16,8 +16,8 @@ public:
     void set_tipoC(TipoC TipoCotillon);
     TipoC get_tipoC();
 
-    void set_Cartel(cartel Cartel);
-    cartel get_Cartel();
+    void set_cartel(cartel Cartel);
+    cartel get_cartel();
 };
 
 #endif //_CCOTILLON_H

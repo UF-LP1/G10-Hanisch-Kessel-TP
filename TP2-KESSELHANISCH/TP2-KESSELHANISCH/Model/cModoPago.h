@@ -6,9 +6,9 @@ class cModoPago {
 private: 
     enum metodop Metodo;
     
-void get_modoPago();
+metodop get_modoPago();
 
-void set_modoPago(enum metodo);
+void set_modoPago(enum metodop Metodo);
 
 public:
     cModoPago();

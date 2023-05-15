@@ -6,15 +6,18 @@ cGolosinas::cGolosinas() {
 }
 
 void cGolosinas::set_TipoGO(string tipoGO) {
-
+	this->tipoGO = tipoGO;
+	return;
 }
 
 void cGolosinas::set_GramosGO(float gramosGO) {
-
+	this->gramosGO = gramosGO;
+	return;
 }
 
-void cGolosinas::get_TipoGO(){
+string cGolosinas::get_TipoGO(){
+	return this->tipoGO;
 }
-void cGolosinas::get_GramosGO() {
-
+float cGolosinas::get_GramosGO() {
+	return this->gramosGO;
 }

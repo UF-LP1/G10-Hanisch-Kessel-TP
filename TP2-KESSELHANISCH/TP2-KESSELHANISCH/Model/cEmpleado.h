@@ -11,6 +11,8 @@ public:
     ~cEmpleado();
 
 void AtenderCliente(int NroCliente);
+
+
 };
 
 #endif //_CEMPLEADO_H

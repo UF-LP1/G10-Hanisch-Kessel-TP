@@ -19,7 +19,6 @@ public:
     void set_apellido(string Apellido);
     string get_apellido();
 
-    void set_dni(const string DNI);
     string get_dni();
   
 };
