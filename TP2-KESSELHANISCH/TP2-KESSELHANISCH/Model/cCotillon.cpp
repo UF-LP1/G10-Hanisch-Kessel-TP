@@ -17,6 +17,6 @@ void cCotillon::mostrarInformacion() {
 	std::cout << "Tipo Cotillon: " << get_tipoC() << std::endl;
 	std::cout << "Stock: " << get_cartel() << std::endl;
 }
-
+cCotillon::~cCotillon(){}
 
 

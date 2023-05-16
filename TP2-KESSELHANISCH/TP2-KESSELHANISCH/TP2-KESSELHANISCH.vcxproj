@@ -19,7 +19,6 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Model\cAlquiler.cpp" />
     <ClCompile Include="Model\cArticulos.cpp" />
     <ClCompile Include="Model\cCarrito.cpp" />
     <ClCompile Include="Model\cCliente.cpp" />
@@ -30,7 +29,6 @@
     <ClCompile Include="Model\cGlobos.cpp" />
     <ClCompile Include="Model\cGolosinas.cpp" />
     <ClCompile Include="Model\cLocal.cpp" />
-    <ClCompile Include="Model\cModoPago.cpp" />
     <ClCompile Include="Model\cPersona.cpp" />
     <ClCompile Include="Model\cReposteria.cpp" />
     <ClCompile Include="Model\cTrabajador.cpp" />
@@ -51,7 +49,6 @@
     <ClInclude Include="Model\cGlobos.h" />
     <ClInclude Include="Model\cGolosinas.h" />
     <ClInclude Include="Model\cLocal.h" />
-    <ClInclude Include="Model\cModoPago.h" />
     <ClInclude Include="Model\colores.h" />
     <ClInclude Include="Model\cotillon.h" />
     <ClInclude Include="Model\cPersona.h" />

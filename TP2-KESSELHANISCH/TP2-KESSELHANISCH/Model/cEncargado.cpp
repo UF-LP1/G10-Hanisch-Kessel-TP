@@ -19,3 +19,9 @@ void cEncargado::ticket_mail() {
 void cEncargado::ticket() {
     std::cout << "Encargado " << nombre << " imprimiendo ticket " << std::endl;
 }
+float cEncargado::vuelto(float pago, float total) {
+    float vuelto;
+   
+    return pago-total;
+  
+}

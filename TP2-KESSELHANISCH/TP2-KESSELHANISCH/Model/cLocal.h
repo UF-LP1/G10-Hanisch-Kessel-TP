@@ -6,6 +6,7 @@ private:
     std::string horarioSemana;
     std::string horarioSabado;
     std::vector<cArticulos*> inventario;
+    int stock;
 
 public:
     cLocal();

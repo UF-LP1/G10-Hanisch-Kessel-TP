@@ -1,4 +1,6 @@
 #include "cCarrito.h"
+#include "cArticulos.h"
+
 
 cCarrito::cCarrito() {}
 
@@ -6,17 +8,12 @@ cCarrito::~cCarrito() {}
 
 void cCarrito::agregarArticuloCarrito(cArticulos* articulo) {
     // agregar el articulo a la lista
-
     listaArticulos.push_back(articulo);
-
-
-}
-
-
+    }
 
 void cCarrito::quitarArticulo(cArticulos* articulo) {
     // Buscar y eliminar el artículo de la lista
-    for (auto it = listaArticulos.begin(); it != listaArticulos.end(); ++it) {
+    for (std::vector<cArticulos*>::iterator it = listaArticulos.begin(); it != listaArticulos.end(); ++it) {
         if (*it == articulo) {
             listaArticulos.erase(it);
             break;

@@ -2,9 +2,9 @@
 
 int cArticulos::stock = 0;
 
-cArticulos::cArticulos(std::string _nombre, float _precio) : nombre(_nombre), precio(_precio) {}
+cArticulos::cArticulos(std::string _nombre, float _precio) : nombre(_nombre), precio(_precio) { stock++; }
 
-cArticulos::~cArticulos() {}
+cArticulos::~cArticulos() { stock--; }
 
 std::string cArticulos::getNombre() {
     return nombre;

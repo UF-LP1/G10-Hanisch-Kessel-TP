@@ -1,5 +1,8 @@
 #include<iostream>
 #include "cLocal.h"
+cLocal::cLocal() {
+    
+}
 void cLocal::setHorarioSabado(std::string horario) {
     horarioSabado = horario;
 }
@@ -13,6 +16,7 @@ std::string cLocal::getHorarioSabado() {
 }
 void cLocal::agregarArticulo(cArticulos* articulo) {
     inventario.push_back(articulo);
+    
 }
 
 void cLocal::mostrarInventario() {
@@ -21,5 +25,6 @@ void cLocal::mostrarInventario() {
         std::cout << "- " << articulo->getNombre() << std::endl;
     }
 }
+cLocal::~cLocal(){}
 
 

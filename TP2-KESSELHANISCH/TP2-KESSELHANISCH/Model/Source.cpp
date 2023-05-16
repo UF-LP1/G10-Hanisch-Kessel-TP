@@ -1,6 +1,8 @@
 #include <iostream>
+#include <list>
 #include <vector>
 #include <cctype>
+#include <exception>
 #include "..\Model\cPersona.h"
 #include "..\Model\cCliente.h"
 #include "..\Model\cEncargado.h"
@@ -17,7 +19,7 @@ int main() {
     // Crear local
     cLocal cotillon;
 
-    // Agregar artículos al inventario del cotillón
+  // Agregar artículos al inventario del cotillón
     cotillon.agregarArticulo(new cVelas("Velas cumpleaños", 10, 15));
     cotillon.agregarArticulo(new cGolosinas("Bolsa de golosinas", 30.5, "Chocolates"));
     cotillon.agregarArticulo(new cGlobos("Globos fiesta", 50, "Rojos"));
@@ -52,6 +54,7 @@ int main() {
         carrito1.agregarArticuloCarrito(new cVelas("Velas cumpleaños", 10, 15));
         carrito1.agregarArticuloCarrito(new cGolosinas("Bolsa de golosinas", 30.5, "Chocolates"));
         carrito1.agregarArticuloCarrito(new cGolosinas("Caramelos surtidos", 9.12, "Tutifruti"));
+        
     }
     catch (const std::exception& e) {
         std::cout << "Error: " << e.what() << "\n";
@@ -78,13 +81,68 @@ int main() {
     // Calcular monto total de los carritos
     double montoTotal1 = carrito1.calcularTotal();
     double montoTotal2 = carrito2.calcularTotal();
-
-    std::cout << "Monto total de " << cliente1.getNombre() << ": $" << montoTotal1 << "\n";
-    std::cout << "Monto total de " << cliente2.getNombre() << ": $" << montoTotal2 << "\n";
-
     //Crear Encargado
     cEncargado encargado("Rodolfo D'onofrio");
     encargado.cobrar();
+    std::string MP1,MP2;
+    float pago1, pago2;
+    std::cout << "Monto total de " << cliente1.getNombre() << ": $" << montoTotal1 << "\n";
+    do {
+        std::cout << "Ingrese el metodo de pago que va a utilizar para abonar (debito, credito, efectivo): ";
+        std::cin >> MP1;
+        for (char& c : MP1) {
+            c = std::toupper(c);
+        }
+        if (MP1 == "DEBITO") {
+            std::cout<<"Abona con debito";
+            break;
+        }
+        else if (MP1 == "CREDITO") {
+            std::cout<<"Abona con credito";
+            break;
+        }
+        else if (MP1 == "EFECTIVO") {
+            std::cout << "Abona en efectivo";
+            break;
+        }
+        else {
+            std::cout << "Ingrese debito, credito, efectivo" << "\n" << "\n";
+
+        }
+    } while (MP1 != "DEBITO" || MP1 != "CREDITO" || MP1 != "EFECTIVO");
+    
+    std::cout << "ingrese el monto con el que va a abonar:" << std::endl;
+    std::cin >> pago1;
+    std::cout << "su vuelto es de $" << encargado.vuelto(pago1, montoTotal1) << std::endl;
+    std::cout << "Monto total de " << cliente2.getNombre() << ": $" << montoTotal2 << "\n";
+    do {
+        std::cout << "Ingrese el metodo de pago que va a utilizar para abonar (debito, credito, efectivo): ";
+        std::cin >> MP2;
+        for (char& c : MP2) {
+            c = std::toupper(c);
+        }
+        if (MP2 == "DEBITO") {
+            std::cout << "Abona con debito";
+            break;
+        }
+        else if (MP2 == "CREDITO") {
+            std::cout << "Abona con credito";
+            break;
+        }
+        else if (MP2 == "EFECTIVO") {
+            std::cout << "Abona en efectivo";
+            break;
+        }
+        else {
+            std::cout << "Ingrese debito, credito, efectivo" << "\n" << "\n";
+
+        }
+        } while (MP2 != "DEBITO" || MP2 != "CREDITO" || MP2 != "EFECTIVO");
+    std::cout << "ingrese el monto con el que va a abonar:" << std::endl;
+    std::cin >> pago2;
+    std::cout << "su vuelto es de $" << encargado.vuelto(pago2, montoTotal2) << std::endl;
+
+   
     std::string rta, ticket;
     //Preguntas sobre envolver y ticket
     do {
@@ -124,4 +182,5 @@ int main() {
     } while (ticket != "IMPRESO " || ticket != "MAIL");
     std::cout << "Producto entregado" << "\n" << std::endl << "Gracias por su compra";
 
+    return 0;
 }

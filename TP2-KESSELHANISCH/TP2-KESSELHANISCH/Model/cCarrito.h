@@ -5,7 +5,7 @@
 
 class cCarrito {
 private:
-    std::vector<cArticulos*> listaArticulos;
+    std::vector<cArticulos*>listaArticulos;
 
 public:
     cCarrito();

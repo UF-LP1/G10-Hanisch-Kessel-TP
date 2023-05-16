@@ -9,4 +9,5 @@ public:
     void envolverRegalo();
     void ticket_mail();
     void ticket();
+    float vuelto(float pago, float total);
 };
