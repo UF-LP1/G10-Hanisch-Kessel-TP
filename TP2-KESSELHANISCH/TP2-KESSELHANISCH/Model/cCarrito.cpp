@@ -1,28 +1,48 @@
-
-
 #include "cCarrito.h"
 
-cCarrito::cCarrito(){}
+cCarrito::cCarrito() {}
 
-float cCarrito::get_total() {
-    return this->Total;
+cCarrito::~cCarrito() {}
+
+void cCarrito::agregarArticuloCarrito(cArticulos* articulo) {
+    // agregar el articulo a la lista
+
+    listaArticulos.push_back(articulo);
+
+
 }
 
-string cCarrito::get_productos() {
-    return this->Productos;
+
+
+void cCarrito::quitarArticulo(cArticulos* articulo) {
+    // Buscar y eliminar el artículo de la lista
+    for (auto it = listaArticulos.begin(); it != listaArticulos.end(); ++it) {
+        if (*it == articulo) {
+            listaArticulos.erase(it);
+            break;
+        }
+    }
+}
+void cCarrito::mostrarCarrito() {
+    std::cout << "Carrito de compras:\n";
+    std::cout << "-------------------\n";
+
+    if (listaArticulos.empty()) {
+        std::cout << "El carrito está vacío.\n";
+    }
+    else {
+        for (const auto& articulo : listaArticulos) {
+            articulo->mostrarInformacion();
+            std::cout << "-------------------\n";
+        }
+    }
 }
 
-int cCarrito::get_cant_prod() {
-    return this->Cant_prod;
+float cCarrito::calcularTotal() {
+    float total = 0.0;
+    for (cArticulos* articulo : listaArticulos) {
+        total += articulo->getPrecio();
+    }
+    return total;
 }
-void cCarrito::set_total(float Total) {
-    this->Total = Total;
-    return;
-}
-void cCarrito::set_productos(string Productos) {
-    this->Productos = Productos;
-    return;
-}
-void cCarrito::set_cant_prod(unsigned int Cant_prod) {
-    this->Cant_prod = Cant_prod;
-}
+

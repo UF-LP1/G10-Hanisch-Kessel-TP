@@ -1,24 +1,9 @@
-
-#ifndef _CTRABAJADOR_H
-#define _CTRABAJADOR_H
-#include <iostream>
-
+#pragma once
 #include "cPersona.h"
 
-
-class cTrabajador: public cPersona {
-private: 
-    float Sueldo;
-    enum desempeñoT desempeño;
+class cTrabajador : public cPersona {
 public:
-    cTrabajador();
-    ~cTrabajador();
+    cTrabajador(std::string _nombre);
+    virtual ~cTrabajador();
 
-    void set_sueldo(float Sueldo);
-    float get_sueldo();
-
-    void set_desempenio(enum desempeñoT);
-    desempeñoT get_desempenio();
 };
-
-#endif //_CTRABAJADOR_H

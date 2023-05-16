@@ -1,24 +1,13 @@
-
-#ifndef _CGOLOSINAS_H
-#define _CGOLOSINAS_H
-
+#pragma once
 #include "cArticulos.h"
 
+class cGolosinas : public cArticulos {
+private:
+    std::string sabor;
 
-class cGolosinas: public cArticulos {
-private: 
-    string tipoGO;
-    float gramosGO;
 public:
-    cGolosinas();
+    cGolosinas(std::string _nombre, float _precio, std::string _sabor);
     ~cGolosinas();
-
-    void set_TipoGO(string tipoGO); 
-    void set_GramosGO(float gramosGO);
-
-    string get_TipoGO();
-    float get_GramosGO();
-
+    std::string getSabor();
+    void mostrarInformacion();
 };
-
-#endif //_CGOLOSINAS_H

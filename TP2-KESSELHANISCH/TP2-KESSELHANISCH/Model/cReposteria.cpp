@@ -1,19 +1,13 @@
 #include "cReposteria.h"
+#include <iostream>
 
-cReposteria::cReposteria(){}
+cReposteria::cReposteria(std::string _nombre, float _precio)
+    : cArticulos(_nombre, _precio) {}
 
-void cReposteria::set_tipomolde(enum TipoMolde){
-	this->TipoDeMolde = TipoDeMolde;
-	return;
-}
-TipoMolde cReposteria::get_tipomolde(){
-	return this->TipoDeMolde;
-}
+cReposteria::~cReposteria() {}
 
-void cReposteria::set_decoracionC(enum DecoracionC){
-	this->DecoracionRep = DecoracionRep;
-	return;
-}
-DecoracionC cReposteria::get_decoracionC() {
-	return this->DecoracionRep;
+void cReposteria::mostrarInformacion() {
+    std::cout << "Nombre: " << getNombre() << std::endl;
+    std::cout << "Precio: $" << getPrecio() << std::endl;
+    std::cout << "Stock: " << getStock() << std::endl;
 }

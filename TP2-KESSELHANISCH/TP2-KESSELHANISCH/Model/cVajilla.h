@@ -1,35 +1,18 @@
-
-#ifndef _CVAJILLA_H
-#define _CVAJILLA_H
-
+#ifndef CVAJILLA_H
+#define CVAJILLA_H
+#include <iostream>
 #include "cArticulos.h"
-
 
 class cVajilla : public cArticulos {
 private:
-    enum TipoV TipoVasos;
-    bool DecoracionV;
-    string colores;
-    enum favoritos Favoritos;
-    bool personalizado;
+    std::string color;
+
 public:
-    cVajilla();
-    ~cVajilla();
+    cVajilla(const std::string& nombre, int stock, float precio, const std::string& color);
 
-    void set_tipoV(enum TipoV);
-    TipoV get_tipoV();
+    std::string getColor();
 
-    void set_decoracionV(bool DecoracionV);
-    bool get_decoracionV();
-
-    void set_Colores(string colores);
-    string get_Colores();
-
-    void set_Favoritos(enum favoritos);
-    favoritos get_Favoritos();
-
-    void set_Personalizado(bool personalizado);
-    bool get_Personalizado();
+    void mostrarInformacion();
 };
 
 #endif //_CVAJILLA_H

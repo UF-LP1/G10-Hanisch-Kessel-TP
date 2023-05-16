@@ -1,24 +1,9 @@
-
-#ifndef _CREPOSTERIA_H
-#define _CREPOSTERIA_H
-
+#pragma once
 #include "cArticulos.h"
 
-
-class cReposteria: public cArticulos {
-private: 
-    enum TipoMolde TipoDeMolde;
-    enum DecoracionC DecoracionRep;
-
+class cReposteria : public cArticulos {
 public:
-    cReposteria();
+    cReposteria(std::string _nombre, float _precio);
     ~cReposteria();
-    
-    void set_tipomolde(enum TipoMolde);
-    TipoMolde get_tipomolde();
-
-    void set_decoracionC(enum DecoracionC);
-    DecoracionC get_decoracionC();
+    void mostrarInformacion();
 };
-
-#endif //_CREPOSTERIA_H

@@ -5,19 +5,19 @@
 #include "cArticulos.h"
 
 
-class cCotillon: public cArticulos {
-private: 
-    enum TipoC TipoCotillon;
-    enum cartel Cartel;
+class cCotillon : public cArticulos {
+private:
+    std::string TipoCotillon;
+    std::string Cartel;
 public:
-    cCotillon();
+    cCotillon(std::string _nombre, float _precio,std::string _TipoCotillon, std::string _Cartel);
     ~cCotillon();
 
-    void set_tipoC(TipoC TipoCotillon);
-    TipoC get_tipoC();
-
-    void set_cartel(cartel Cartel);
-    cartel get_cartel();
+  
+    std::string get_tipoC();
+    std::string get_cartel();
+    void mostrarInformacion();
+   
 };
 
 #endif //_CCOTILLON_H

@@ -1,26 +1,12 @@
-
-#ifndef _CPERSONA_H
-#define _CPERSONA_H
+#pragma once
 #include <string>
-using namespace std;
+
 class cPersona {
-    
-private: 
-    string Nombre;
-    string Apellido;
-    const string DNI;
+protected:
+    std::string nombre;
+
 public:
-    cPersona();
-    ~cPersona();
-
-    void set_nombre(string Nombre);
-    string get_nombre();
-
-    void set_apellido(string Apellido);
-    string get_apellido();
-
-    string get_dni();
-  
+    cPersona(std::string _nombre);
+    virtual ~cPersona();
+    std::string getNombre();
 };
-
-#endif //_CPERSONA_H

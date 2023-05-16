@@ -1,21 +1,12 @@
-
-
-#ifndef _CENCARGADO_H
-#define _CENCARGADO_H
-
+#pragma once
 #include "cTrabajador.h"
 
-
-class cEncargado: public cTrabajador {
-public: 
-    cEncargado();
+class cEncargado : public cTrabajador {
+public:
+    cEncargado(std::string _nombre);
     ~cEncargado();
-
-void CobrarCliente(float total);
-    
-void EnvolverRegalo();
-    
-void Ticket();
+    void cobrar();
+    void envolverRegalo();
+    void ticket_mail();
+    void ticket();
 };
-
-#endif //_CENCARGADO_H

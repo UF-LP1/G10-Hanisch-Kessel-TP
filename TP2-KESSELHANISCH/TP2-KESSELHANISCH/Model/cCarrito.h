@@ -1,25 +1,18 @@
-#ifndef _CCARRITO_H
-#define _CCARRITO_H
-#include<string>
+#pragma once
+#include<iostream>
 #include "cArticulos.h"
+#include <vector>
+
 class cCarrito {
+private:
+    std::vector<cArticulos*> listaArticulos;
+
 public:
     cCarrito();
     ~cCarrito();
-
-    void set_total(float Total);
-    float get_total();
-
-    void set_productos(string Productos);
-    string get_productos();
-
-    void set_cant_prod(unsigned int Cant_prod);
-    int get_cant_prod();
-   
-private: 
-    float Total;
-    string Productos;
-    unsigned int Cant_prod;
+    void agregarArticuloCarrito(cArticulos* articulo);
+    void quitarArticulo(cArticulos* articulo);
+    void mostrarCarrito();
+    float calcularTotal();
 };
 
-#endif //_CCARRITO_H

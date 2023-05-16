@@ -1,23 +1,14 @@
-
-#ifndef _CVELAS_H
-#define _CVELAS_H
-
+#pragma once
 #include "cArticulos.h"
 
+class cVelas : public cArticulos {
+private:
+    int cantidad;
 
-class cVelas: public cArticulos {
-private: 
-    string colorV;
-    string tamañoV;
 public:
-    cVelas();
+    cVelas(std::string _nombre, float _precio, int _cantidad);
     ~cVelas();
-
-    void set_ColorV(string ncolorV);
-    string get_ColorV();
-
-    void set_TamañoV(string tamañoV);
-    string get_TamañoV();
+    int getCantidad();
+    void mostrarInformacion();
 };
 
-#endif 

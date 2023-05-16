@@ -1,26 +1,16 @@
 
-#ifndef _CDISFRACES_H
-#define _CDISFRACES_H
-
+#pragma once
 #include "cArticulos.h"
 
+class cDisfraces : public cArticulos {
+private:
+    bool alquiler;
+    int tiempoAlquiler;
 
-class cDisfraces: public cArticulos {
-private: 
-    bool alquila;
-    bool encargo;
-    bool tamañoD;
-public: 
-    cDisfraces();
+public:
+    cDisfraces(std::string _nombre, float _precio, bool _alquiler, int _tiempoAlquiler);
     ~cDisfraces();
-    void set_alquila(bool alquila);
-    void set_encargo(bool encargo);
-    void set_tamañoD(bool tamañoD);
-
-    bool get_alquila();
-    bool get_encargo();
-    bool get_tamañoD();
-
+    bool getAlquiler();
+    int getTiempoAlquiler();
+    void mostrarInformacion();
 };
-
-#endif //_CDISFRACES_H

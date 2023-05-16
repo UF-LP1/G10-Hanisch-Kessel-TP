@@ -1,18 +1,11 @@
-
-#ifndef _CEMPLEADO_H
-#define _CEMPLEADO_H
-
+#pragma once
 #include "cTrabajador.h"
+#include <string>
+#include "cCliente.h"
 
-
-class cEmpleado: public cTrabajador {
-public: 
-    cEmpleado();
+class cEmpleado : public cTrabajador {
+public:
+    cEmpleado(std::string _nombre);
     ~cEmpleado();
-
-void AtenderCliente(int NroCliente);
-
-
+    void llamarCliente(cCliente& cliente);
 };
-
-#endif //_CEMPLEADO_H

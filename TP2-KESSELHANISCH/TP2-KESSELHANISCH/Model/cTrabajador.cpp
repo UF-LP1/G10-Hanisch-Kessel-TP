@@ -1,16 +1,8 @@
 #include "cTrabajador.h"
+#include <iostream>
 
-void cTrabajador::set_desempenio(enum desempeñoT) {
-    this->desempeño = desempeño;
-}
-desempeñoT cTrabajador::get_desempenio(){
-    return this->desempeño;
-}
+cTrabajador::cTrabajador(std::string _nombre)
+    : cPersona(_nombre) {}
 
-void cTrabajador::set_sueldo(float Sueldo) {
-    this->Sueldo = Sueldo;
-    return;
-}
-float cTrabajador::get_sueldo() {
-    return this->Sueldo;
-}
+cTrabajador::~cTrabajador() {}
+

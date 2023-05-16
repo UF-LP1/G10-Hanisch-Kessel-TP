@@ -1,25 +1,14 @@
-
-#ifndef _CGLOBOS_H
-#define _CGLOBOS_H
-
-#include "cVelas.h"
+#pragma once
 #include "cArticulos.h"
 
+class cGlobos : public cArticulos {
+private:
+    std::string color;
 
-class cGlobos: public cVelas, public cArticulos {
-private: 
-    string colorG;
-    string tamañoG;
 public:
-    cGlobos();
+    cGlobos(std::string _nombre, float _precio, std::string _color);
     ~cGlobos();
-
-    void set_ColorG(string colorG);
-    void set_TamañoG(string tamañoG);
-
-    string get_ColorG();
-    string get_TamañoG();
-
+    std::string getColor();
+    void mostrarInformacion();
+    void setStock(int _stock);
 };
-
-#endif //_CGLOBOS_H

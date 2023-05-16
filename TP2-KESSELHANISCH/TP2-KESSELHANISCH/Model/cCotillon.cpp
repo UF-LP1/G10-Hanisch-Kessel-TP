@@ -1,19 +1,21 @@
-
 #include "cCotillon.h"
-cCotillon::cCotillon(){}
-void cCotillon::set_tipoC(TipoC TipoCotillon) {
-	this->TipoCotillon = TipoCotillon;
-	return;
+#include <iostream>
+cCotillon::cCotillon(std::string nombre, float precio, std:: string _TipoCotillon, std::string _Cartel):cArticulos( nombre, precio ){
+	
 }
-void cCotillon::set_cartel(cartel Cartel) {
-	this->Cartel = Cartel;
-	return;
+
+std::string cCotillon::get_tipoC() {
+	return TipoCotillon;
 }
-TipoC cCotillon::get_tipoC() {
-	return this->TipoCotillon;
+std::string cCotillon::get_cartel() {
+	return Cartel;
 }
-cartel cCotillon::get_cartel() {
-	return this->Cartel;
+void cCotillon::mostrarInformacion() {
+	std::cout << "Nombre: " << getNombre() << std::endl;
+	std::cout << "Precio: $" << getPrecio() << std::endl;
+	std::cout << "Stock: " << getStock() << std::endl;
+	std::cout << "Tipo Cotillon: " << get_tipoC() << std::endl;
+	std::cout << "Stock: " << get_cartel() << std::endl;
 }
 
 
