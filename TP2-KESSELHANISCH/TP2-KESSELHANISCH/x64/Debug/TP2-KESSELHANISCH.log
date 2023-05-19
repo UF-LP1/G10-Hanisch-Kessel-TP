@@ -1,6 +1,64 @@
-﻿  Source.cpp
-C:\Users\Usuario\source\repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\Source.cpp(56,96): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\Usuario\source\repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\Source.cpp(66,78): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\Usuario\source\repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\Source.cpp(116,65): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\Usuario\source\repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\Source.cpp(143,65): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
-  TP2-KESSELHANISCH.vcxproj -> C:\Users\Usuario\source\repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\x64\Debug\TP2-KESSELHANISCH.exe
+﻿  cArticulos.cpp
+  cCarrito.cpp
+  cCliente.cpp
+  cCotillon.cpp
+  cDisfraces.cpp
+C:\Users\mdelf\Desktop\source\repos\TP3\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cDisfraces.cpp(11,75): error C2059: error de sintaxis: '<<'
+C:\Users\mdelf\Desktop\source\repos\TP3\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cDisfraces.cpp(16,50): error C2761: "int cDisfraces::getTiempoAlquiler(void)": no se permite la nueva declaración del miembro
+C:\Users\mdelf\Desktop\source\repos\TP3\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cDisfraces.cpp(16,35): error C2065: '_tiempoAlquiler': identificador no declarado
+C:\Users\mdelf\Desktop\source\repos\TP3\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cDisfraces.cpp(16,52): error C2143: error de sintaxis: falta ';' delante de '{'
+C:\Users\mdelf\Desktop\source\repos\TP3\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cDisfraces.cpp(16,52): error C2447: '{': falta el encabezado de función (¿lista formal de estilo anterior?)
+C:\Users\mdelf\Desktop\source\repos\TP3\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cDisfraces.cpp(17,26): warning C4138: '*/' se encontró fuera del comentario
+  cEmpleado.cpp
+  cEncargado.cpp
+C:\Users\mdelf\Desktop\source\repos\TP3\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cEncargado.h(12,27): warning C4076: "unsigned": no se puede utilizar con el tipo "float"
+C:\Users\mdelf\Desktop\source\repos\TP3\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cEncargado.cpp(22,35): warning C4076: "unsigned": no se puede utilizar con el tipo "float"
+C:\Users\mdelf\Desktop\source\repos\TP3\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cEncargado.cpp(23,11): warning C4101: 'vuelto': variable local sin referencia
+  cGlobos.cpp
+  cGolosinas.cpp
+  cLocal.cpp
+  cPersona.cpp
+  cReposteria.cpp
+  cTrabajador.cpp
+  cVajilla.cpp
+  cVelas.cpp
+  Source.cpp
+C:\Users\mdelf\Desktop\source\repos\TP3\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cEncargado.h(12,27): warning C4076: "unsigned": no se puede utilizar con el tipo "float"
+C:\Users\mdelf\Desktop\source\repos\TP3\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\Source.cpp(58,96): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\mdelf\Desktop\source\repos\TP3\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\Source.cpp(68,78): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\mdelf\Desktop\source\repos\TP3\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\Source.cpp(76,54): error C2679: '<<' binario: no se encontró un operador que adopte un operando en la parte derecha de tipo 'overloaded-function' (o bien no existe una conversión aceptable)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\ostream(465,39): message : puede ser 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\ostream(440,39): message : o       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\ostream(422,39): message : o       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\ostream(404,39): message : o       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\ostream(386,39): message : o       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\ostream(368,39): message : o       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\ostream(350,39): message : o       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\ostream(332,39): message : o       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\ostream(314,39): message : o       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\ostream(295,39): message : o       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\ostream(269,39): message : o       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\ostream(250,39): message : o       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\ostream(216,39): message : o       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\ostream(198,39): message : o       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\ostream(193,39): message : o       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\ostream(188,39): message : o       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\ostream(183,39): message : o       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\ostream(859,32): message : o       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,_Elem)'
+          with
+          [
+              _Elem=char
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\ostream(816,32): message : o       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const _Elem *)'
+          with
+          [
+              _Elem=char
+          ]
+C:\Users\mdelf\Desktop\source\repos\TP3\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\Source.cpp(76,54): message : al hacer coincidir la lista de argumentos '(std::basic_ostream<char,std::char_traits<char>>, overloaded-function)'
+C:\Users\mdelf\Desktop\source\repos\TP3\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\Source.cpp(78,9): error C2065: 'disfraces': identificador no declarado
+C:\Users\mdelf\Desktop\source\repos\TP3\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\Source.cpp(80,9): error C2059: error de sintaxis: '.'
+C:\Users\mdelf\Desktop\source\repos\TP3\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\Source.cpp(119,68): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\mdelf\Desktop\source\repos\TP3\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\Source.cpp(119,61): warning C4244: 'argumento': conversión de 'float' a 'unsigned int'; posible pérdida de datos
+C:\Users\mdelf\Desktop\source\repos\TP3\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\Source.cpp(148,68): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\mdelf\Desktop\source\repos\TP3\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\Source.cpp(148,61): warning C4244: 'argumento': conversión de 'float' a 'unsigned int'; posible pérdida de datos
+  Generando código...

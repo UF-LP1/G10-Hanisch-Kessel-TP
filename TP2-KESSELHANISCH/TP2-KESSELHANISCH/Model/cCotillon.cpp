@@ -1,6 +1,6 @@
 #include "cCotillon.h"
 #include <iostream>
-cCotillon::cCotillon(std::string nombre, float precio, std:: string _TipoCotillon, std::string _Cartel):cArticulos( nombre, precio ){
+cCotillon::cCotillon(std::string nombre,  float precio, std:: string _TipoCotillon, std::string _Cartel):cArticulos( nombre, precio ){
 	
 }
 

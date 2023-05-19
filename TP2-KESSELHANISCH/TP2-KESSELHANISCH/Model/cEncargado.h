@@ -10,4 +10,5 @@ public:
     void ticket_mail();
     void ticket();
     float vuelto(float pago, float total);
+    bool chequearMonto(float pago, float total);
 };

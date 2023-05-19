@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Model\cAlquiler.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
     <ClCompile Include="Model\cArticulos.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
@@ -48,9 +45,6 @@
     <ClCompile Include="Model\cLocal.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="Model\cModoPago.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
     <ClCompile Include="Model\cPersona.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
@@ -71,12 +65,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Model\cAlquiler.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="Model\cartel.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
     <ClInclude Include="Model\cArticulos.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
@@ -107,15 +95,6 @@
     <ClInclude Include="Model\cLocal.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="Model\cModoPago.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="Model\colores.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="Model\cotillon.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
     <ClInclude Include="Model\cPersona.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
@@ -131,25 +110,7 @@
     <ClInclude Include="Model\cVelas.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="Model\DecoracionC.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="Model\desempeñoT.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="Model\favoritos.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
     <ClInclude Include="Model\metodop.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="Model\TipoC.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="Model\TipoMolde.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="Model\TipoV.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
   </ItemGroup>

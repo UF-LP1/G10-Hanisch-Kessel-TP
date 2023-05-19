@@ -37,8 +37,6 @@
     <ClCompile Include="Model\Source.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Model\cAlquiler.h" />
-    <ClInclude Include="Model\cartel.h" />
     <ClInclude Include="Model\cArticulos.h" />
     <ClInclude Include="Model\cCarrito.h" />
     <ClInclude Include="Model\cCliente.h" />
@@ -49,20 +47,12 @@
     <ClInclude Include="Model\cGlobos.h" />
     <ClInclude Include="Model\cGolosinas.h" />
     <ClInclude Include="Model\cLocal.h" />
-    <ClInclude Include="Model\colores.h" />
-    <ClInclude Include="Model\cotillon.h" />
     <ClInclude Include="Model\cPersona.h" />
     <ClInclude Include="Model\cReposteria.h" />
     <ClInclude Include="Model\cTrabajador.h" />
     <ClInclude Include="Model\cVajilla.h" />
     <ClInclude Include="Model\cVelas.h" />
-    <ClInclude Include="Model\DecoracionC.h" />
-    <ClInclude Include="Model\desempeñoT.h" />
-    <ClInclude Include="Model\favoritos.h" />
     <ClInclude Include="Model\metodop.h" />
-    <ClInclude Include="Model\TipoC.h" />
-    <ClInclude Include="Model\TipoMolde.h" />
-    <ClInclude Include="Model\TipoV.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
@@ -88,7 +78,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">

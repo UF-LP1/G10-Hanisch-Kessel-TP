@@ -14,6 +14,8 @@
 #include "..\Model\cVelas.h"
 #include "..\Model\cGlobos.h"
 
+using namespace std;
+
 int main() {
 
     // Crear local
@@ -57,7 +59,7 @@ int main() {
         
     }
     catch (const std::exception& e) {
-        std::cout << "Error: " << e.what() << "\n";
+        cout << "Error: " << e.what() << "\n";
     }
 
     // Cliente 2 agrega artículos al carrito
@@ -66,17 +68,27 @@ int main() {
         carrito2.agregarArticuloCarrito(new cVelas("Velas estrella", 2.03, 5));
     }
     catch (const std::exception& e) {
-        std::cout << "Error: " << e.what() << "\n";
+        cout << "Error: " << e.what() << "\n";
     }
-
+    //consulto sobre el alquiler de disfraces
+    string rtaAlquiler;
+    unsigned int cantDias;
+    cout << "Desea alquilar un disfraz? SI/NO" << endl;
+    cin >> rtaAlquiler;
+    if (rtaAlquiler == "SI") {
+        .getAlquiler();
+        cout << "ingrese la cantidad de dias que quiere alquilar el disfraz: " << endl;
+        cin >> cantDias;
+        .getTiempoAlquiler(cantDias); 
+    }
     // Mostrar carritos de compras de los clientes
-    std::cout << "Carrito de compras de " << cliente1.getNombre() << ":\n";
+    cout << "Carrito de compras de " << cliente1.getNombre() << ":\n";
     carrito1.mostrarCarrito();
-    std::cout << "\n";
+    cout << "\n";
 
-    std::cout << "Carrito de compras de " << cliente2.getNombre() << ":\n";
+    cout << "Carrito de compras de " << cliente2.getNombre() << ":\n";
     carrito2.mostrarCarrito();
-    std::cout << "\n";
+    cout << "\n";
 
     // Calcular monto total de los carritos
     double montoTotal1 = carrito1.calcularTotal();
@@ -86,61 +98,70 @@ int main() {
     encargado.cobrar();
     std::string MP1,MP2;
     float pago1, pago2;
-    std::cout << "Monto total de " << cliente1.getNombre() << ": $" << montoTotal1 << "\n";
+    cout << "Monto total de " << cliente1.getNombre() << ": $" << montoTotal1 << "\n";
     do {
-        std::cout << "Ingrese el metodo de pago que va a utilizar para abonar (debito, credito, efectivo): ";
-        std::cin >> MP1;
+        cout << "Ingrese el metodo de pago que va a utilizar para abonar (debito, credito, efectivo): ";
+        cin >> MP1;
         for (char& c : MP1) {
             c = std::toupper(c);
         }
         if (MP1 == "DEBITO") {
-            std::cout<<"Abona con debito";
+            cout<<"Abona con debito, efectuando pago";
             break;
         }
         else if (MP1 == "CREDITO") {
-            std::cout<<"Abona con credito";
+            cout<<"Abona con credito, efectuando pago";
             break;
         }
         else if (MP1 == "EFECTIVO") {
-            std::cout << "Abona en efectivo";
+            cout << "Abona en efectivo";
+            bool chequeo;
+            do {
+                cout << "ingrese el monto con el que va a abonar:" << std::endl;
+                cin >> pago1;
+                chequeo = encargado.chequearMonto(pago1, montoTotal1);
+                if ( chequeo == false) {
+                    cout << "monto mal ingresado, reingresar" << endl;
+                }
+            } while (chequeo);
+            cout << "su vuelto es de $" << encargado.vuelto(pago1, montoTotal1) << std::endl;
+            cout << "Monto total de " << cliente2.getNombre() << ": $" << montoTotal2 << "\n";
             break;
         }
         else {
-            std::cout << "Ingrese debito, credito, efectivo" << "\n" << "\n";
+            cout << "Ingrese debito, credito, efectivo" << "\n" << "\n";
 
         }
     } while (MP1 != "DEBITO" || MP1 != "CREDITO" || MP1 != "EFECTIVO");
-    
-    std::cout << "ingrese el monto con el que va a abonar:" << std::endl;
-    std::cin >> pago1;
-    std::cout << "su vuelto es de $" << encargado.vuelto(pago1, montoTotal1) << std::endl;
-    std::cout << "Monto total de " << cliente2.getNombre() << ": $" << montoTotal2 << "\n";
+
     do {
-        std::cout << "Ingrese el metodo de pago que va a utilizar para abonar (debito, credito, efectivo): ";
-        std::cin >> MP2;
+        cout << "Ingrese el metodo de pago que va a utilizar para abonar (debito, credito, efectivo): "<< "\n";
+        cin >> MP2;
         for (char& c : MP2) {
             c = std::toupper(c);
         }
         if (MP2 == "DEBITO") {
-            std::cout << "Abona con debito";
+            cout << "Abona con debito";
             break;
         }
         else if (MP2 == "CREDITO") {
-            std::cout << "Abona con credito";
+            cout << "Abona con credito";
             break;
         }
         else if (MP2 == "EFECTIVO") {
-            std::cout << "Abona en efectivo";
+            cout << "Abona en efectivo";
+            cout << "ingrese el monto con el que va a abonar:" << endl;
+            cin >> pago2;
+            encargado.chequearMonto(pago2, );
+            cout << "su vuelto es de $" << encargado.vuelto(pago2, montoTotal2) << std::endl;
             break;
         }
         else {
-            std::cout << "Ingrese debito, credito, efectivo" << "\n" << "\n";
+            cout << "Ingrese debito, credito, efectivo" << "\n" << "\n";
 
         }
         } while (MP2 != "DEBITO" || MP2 != "CREDITO" || MP2 != "EFECTIVO");
-    std::cout << "ingrese el monto con el que va a abonar:" << std::endl;
-    std::cin >> pago2;
-    std::cout << "su vuelto es de $" << encargado.vuelto(pago2, montoTotal2) << std::endl;
+ 
 
    
     std::string rta, ticket;
