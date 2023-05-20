@@ -11,12 +11,15 @@ void cEncargado::cobrar() {
     std::cout << "Encargado " << nombre << " cobrando los productos." << std::endl;
 }
 
-bool cEncargado::chequearMonto(float pago, float total) {
+bool cEncargado::chequearMonto( float pago, float total) {
     if (pago <= 0 || (pago < total)) {
+        cout << "monto mal ingresado, reingresar" << endl;
         return false;
     }
-    else
+    else 
+    {
         return true;
+    }
 }
 void cEncargado::envolverRegalo() {
     std::cout << "Encargado " << nombre << " envolviendo regalo." << std::endl;

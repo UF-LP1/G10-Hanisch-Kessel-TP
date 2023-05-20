@@ -5,12 +5,12 @@
 class cDisfraces : public cArticulos {
 private:
     bool alquiler;
-    int tiempoAlquiler;
+   unsigned int tiempoAlquiler;
 
 public:
     cDisfraces(std::string _nombre, float _precio, bool _alquiler, int _tiempoAlquiler);
     ~cDisfraces();
     bool getAlquiler();
-    int getTiempoAlquiler();
+    int getTiempoAlquiler(unsigned int tiempoAlquiler);
     void mostrarInformacion();
 };

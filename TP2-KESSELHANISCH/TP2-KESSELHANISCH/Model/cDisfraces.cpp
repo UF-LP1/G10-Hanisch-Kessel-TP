@@ -7,13 +7,13 @@ cDisfraces::cDisfraces(std::string _nombre, float _precio, bool _alquiler, int _
 
 cDisfraces::~cDisfraces() {}
 
-void cDisfraces::getAlquiler() {
+bool cDisfraces::getAlquiler() {
     return precio;
-    cout << "el precio de alquiler de cada disfraz es de: $" << /*precio*/<<"por dia"endl;
+    cout << "el precio de alquiler de cada disfraz es de: $" << precio<<"por dia"<<endl;
 }
 
-int cDisfraces::getTiempoAlquiler(_tiempoAlquiler) {
-    return tiempoAlquiler*//cantDias; 
+int cDisfraces::getTiempoAlquiler(unsigned int tiempoAlquiler) {
+    return tiempoAlquiler;//cantDias
 }
 
 void cDisfraces::mostrarInformacion() {
