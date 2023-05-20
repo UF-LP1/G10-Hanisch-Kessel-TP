@@ -1,26 +1,11 @@
-﻿  cArticulos.cpp
-  cCarrito.cpp
-  cCliente.cpp
-  cCotillon.cpp
-  cDisfraces.cpp
-  cEmpleado.cpp
+﻿  Source.cpp
+C:\Users\mdelf\Desktop\source\repos\TP3\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\Source.cpp(58,96): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\mdelf\Desktop\source\repos\TP3\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\Source.cpp(68,78): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\mdelf\Desktop\source\repos\TP3\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\Source.cpp(112,56): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\mdelf\Desktop\source\repos\TP3\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\Source.cpp(118,73): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\mdelf\Desktop\source\repos\TP3\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\Source.cpp(148,58): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\mdelf\Desktop\source\repos\TP3\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\Source.cpp(155,68): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
   cEncargado.cpp
-C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cEncargado.cpp(34,11): warning C4101: 'vuelto': variable local sin referencia
-  cGlobos.cpp
-  cGolosinas.cpp
-  cLocal.cpp
-  cPersona.cpp
-  cReposteria.cpp
-  cTrabajador.cpp
-  cVajilla.cpp
-  cVelas.cpp
-  Source.cpp
-C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\Source.cpp(58,96): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\Source.cpp(68,78): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\Source.cpp(112,58): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\Source.cpp(117,73): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\Source.cpp(149,58): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\Source.cpp(154,68): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\Source.cpp(89,18): warning C4101: 'pago2': variable local sin referencia
+C:\Users\mdelf\Desktop\source\repos\TP3\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cEncargado.cpp(33,11): warning C4101: 'vuelto': variable local sin referencia
   Generando código...
-  TP2-KESSELHANISCH.vcxproj -> C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\x64\Debug\TP2-KESSELHANISCH.exe
+  TP2-KESSELHANISCH.vcxproj -> C:\Users\mdelf\Desktop\source\repos\TP3\TP2-KESSELHANISCH\x64\Debug\TP2-KESSELHANISCH.exe

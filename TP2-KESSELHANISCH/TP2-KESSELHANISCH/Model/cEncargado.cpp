@@ -13,7 +13,6 @@ void cEncargado::cobrar() {
 
 bool cEncargado::chequearMonto( float pago, float total) {
     if (pago <= 0 || (pago < total)) {
-        cout << "monto mal ingresado, reingresar" << endl;
         return false;
     }
     else 
