@@ -7,7 +7,7 @@ protected:
     std::string nombre;
     float precio;
     int stock;
-    std::vector<cArticulos*>::iterator  inventario;
+    std::vector<cArticulos*> inventario;
 public:
     cArticulos(std::string _nombre, float _precio, int _stock);
     virtual ~cArticulos();

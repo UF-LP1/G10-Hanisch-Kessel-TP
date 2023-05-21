@@ -1,3 +1,7 @@
-﻿  cCarrito.cpp
-C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\cCarrito.cpp(35): warning C4715: 'cCarrito::Buscar': no todas las rutas de acceso de control devuelven un valor
+﻿  Source.cpp
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\Source.cpp(47,90): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\Source.cpp(207,56): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\Source.cpp(213,73): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\Source.cpp(243,58): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\TP2-KESSELHANISCH\Model\Source.cpp(250,68): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
   TP2-KESSELHANISCH.vcxproj -> C:\Users\Franco\source\Repos\G10-Hanisch-Kessel-TP\TP2-KESSELHANISCH\x64\Debug\TP2-KESSELHANISCH.exe

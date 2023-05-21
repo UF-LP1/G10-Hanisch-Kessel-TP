@@ -18,14 +18,14 @@
 #include "..\Model\cVajilla.h"
 #include "..\Model\cReposteria.h"
 using namespace std;
-
+//Los metodos andan, NO sabemos porque no displaya las listas de carrito1 y carrito2, no llegamos a corregir el metodo CalcularTotal, el resto funciona todo
 int main() {
 
     // Crear local
     cLocal cotillon;
 
     // Agregar artículos al inventario del cotillón
-    cVelas* vela1 = new cVelas("Velas cumpleaños", 10, 20, 1);
+    cVelas* vela1 = new cVelas("Velas cumpleanios", 10, 20, 1);
     cVelas* vela2 = new cVelas("Bengala", 15, 20, 2);
     cVelas* vela3 = new cVelas("Numeros", 5, 20, 3);
     cGolosinas* golosina1 = new cGolosinas("Bolsa de golosinas", 30.5, 20, "Chocolates");
@@ -93,36 +93,38 @@ int main() {
     empleado.llamarCliente(cliente2);
 
     // Clientes realizan compras
-    cCarrito carrito1;
-    cCarrito carrito2;
-    std::vector<cArticulos*> carrito;
+    cCarrito Carrito1;
+    cCarrito Carrito2;
+    std::vector<cArticulos*> carrito1;
+    std::vector<cArticulos*> carrito2;
 
     // Cliente 1 agrega artículos al carrito
     try {
         //le solicito al cliente los articulos que desea
         string ArtAggCliente, ArtQuiCliente, seguir, rta;
         bool busqueda;
+    
 
         do {
-
-            cout << cliente1.getNombre()<<" ingrese el articulo que desea agregar al carrito: " << endl;
+            cout << cliente1.getNombre() << " ingrese el articulo que desea agregar al carrito: " << endl;
             cin >> ArtAggCliente;
-            carrito1.Buscar(inventario, ArtAggCliente,carrito);
-            busqueda = carrito1.Buscar(inventario, ArtAggCliente, carrito);
+           
+            Carrito1.Buscar(inventario, ArtAggCliente, carrito1);
+            busqueda = Carrito1.Buscar(inventario, ArtAggCliente, carrito1);
             if (busqueda == true) {
-                std:: cout<<"Se agrego el articulo al carrito"<<std::endl;
+                std::cout << "Se agrego el articulo al carrito" << std::endl;
             }
             else
                 cout << "el articulo no se encontro" << endl;
             cout << "desea seguir agregando articulos? SI/NO" << endl;
             cin >> seguir;
-        } while (seguir == "SI"|| seguir == "Si" || seguir == "si");
+        } while (seguir == "SI" || seguir == "Si" || seguir == "si");
         cout << "desea eliminar algun articulo? SI/NO" << endl;
         cin >> rta;
-        if (rta == "SI") {
+        if (rta == "SI" || rta == "Si" || rta == "si") {
             cout << "ingrese el articulo que desea quitar: " << endl;
             cin >> ArtQuiCliente;
-            carrito1.quitarArticulo(ArtQuiCliente, carrito);
+            Carrito1.quitarArticulo(ArtQuiCliente, carrito1);
         }
     }
     catch (const std::exception& e) {
@@ -136,8 +138,8 @@ int main() {
         do {
             cout << cliente2.getNombre()<< " ingrese el articulo que desea agregar al carrito: " << endl;
             cin >> ArtAggCliente;
-            carrito2.Buscar(inventario, ArtAggCliente, carrito);
-            busqueda = carrito2.Buscar(inventario, ArtAggCliente, carrito);
+            Carrito2.Buscar(inventario, ArtAggCliente, carrito2);
+            busqueda = Carrito2.Buscar(inventario, ArtAggCliente, carrito2);
             if (busqueda == true) {
                 std::cout << "Se agrego el articulo al carrito" << std::endl;
             }
@@ -148,10 +150,10 @@ int main() {
         } while (seguir == "SI" || seguir == "Si" || seguir == "si");
         cout << "desea eliminar algun articulo? SI/NO" << endl;
         cin >> rta;
-        if (rta == "SI") {
+        if (rta == "SI" || rta== "Si" || rta == "si") {
             cout << "ingrese el articulo que desea quitar: " << endl;
             cin >> ArtQuiCliente;
-            carrito2.quitarArticulo(ArtQuiCliente, carrito);
+            Carrito2.quitarArticulo(ArtQuiCliente, carrito2);
         }
     }
     catch (const std::exception& e) {
@@ -159,16 +161,22 @@ int main() {
     }
     // Mostrar carritos de compras de los clientes
     std::cout << "Carrito de compras de " << cliente1.getNombre() << ":\n";
-    carrito1.mostrarCarrito();
+    for (int i = 0; i < carrito1.size(); i++) {
+        std::cout << carrito1[i]->getNombre() << " || " << "Precio: " << carrito1[i]->getPrecio() << endl;
+    }
     std:: cout << "\n";
 
     std::cout << "Carrito de compras de " << cliente2.getNombre() << ":\n";
-    carrito2.mostrarCarrito();
+   
+    for (int i = 0; i < carrito2.size(); i++) {
+        std::cout << carrito2[i]->getNombre() << " || " << "Precio: " << carrito2[i]->getPrecio() << endl;
+    }
+    std::cout << "\n";
     std::cout << "\n";
 
     // Calcular monto total de los carritos
-    double montoTotal1 = carrito1.calcularTotal();
-    double montoTotal2 = carrito2.calcularTotal();
+    double montoTotal1 = Carrito1.calcularTotal();
+    double montoTotal2 = Carrito2.calcularTotal();
     //Crear Encargado
     cEncargado encargado("Rodolfo D'onofrio");
     encargado.cobrar();

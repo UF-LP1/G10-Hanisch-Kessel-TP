@@ -19,20 +19,19 @@ bool cCarrito::quitarArticulo(std::string artiQui, std::vector<cArticulos*> list
     return false;
 }
 bool cCarrito::Buscar(std::vector<cArticulos*> articulos, std::string artiAgg, std::vector<cArticulos*> listaArticulos) {
-    std::vector<cArticulos*>::iterator arti = listaArticulos.begin();
+    std::vector<cArticulos*>::iterator arti = articulos.begin();
     int cont = 0;
-    while (arti != listaArticulos.end()) {
+    while (arti != articulos.end()) {
         if ((*arti)->getNombre() == artiAgg) {
-            listaArticulos.push_back(articulos[cont]); // Agrega el objeto, no el vector completo
+            
+            listaArticulos.push_back(articulos[cont]); // Agrega el objeto
             return true;
         }
-        else {
-            return false; // Si no se encuentra el objeto
-        }
-    }
         cont++;
         arti++;
     }
+    return false; // Si no se encuentra el objeto
+}
    
 void cCarrito::mostrarCarrito() {
     std::cout << "Carrito de compras:\n";
