@@ -6,12 +6,13 @@
 class cVajilla : public cArticulos {
 private:
     std::string color;
-
+  
 public:
-    cVajilla(const std::string& nombre, int stock, float precio, const std::string& color);
+    cVajilla(const std::string& nombre, float precio, int _stock, const std::string& color);
 
     std::string getColor();
-
+    
+    
     void mostrarInformacion();
 };
 

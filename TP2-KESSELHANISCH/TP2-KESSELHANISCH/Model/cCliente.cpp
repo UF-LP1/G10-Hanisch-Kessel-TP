@@ -12,9 +12,7 @@ std::string cCliente::getNombre() {
 int cCliente::getNumero() {
     return numero;
 }
-void cCliente::agregarArticuloCarrito(cArticulos* articulo) {
-    carrito.agregarArticuloCarrito(articulo);
-}
+
 
 void cCliente::pagarCarrito() {
     float montoTotal = carrito.calcularTotal();

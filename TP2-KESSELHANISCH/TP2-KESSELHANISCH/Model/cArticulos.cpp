@@ -1,10 +1,11 @@
 #include "cArticulos.h"
 
-int cArticulos::stock = 0;
 
-cArticulos::cArticulos(std::string _nombre, float _precio) : nombre(_nombre), precio(_precio) { stock++; }
 
-cArticulos::~cArticulos() { stock--; }
+cArticulos::cArticulos(std::string _nombre, float _precio, int _stock) : nombre(_nombre), precio(_precio), stock(_stock) {  }
+
+
+cArticulos::~cArticulos() { }
 
 std::string cArticulos::getNombre() {
     return nombre;
@@ -13,10 +14,8 @@ std::string cArticulos::getNombre() {
 float cArticulos::getPrecio() {
     return precio;
 }
-
 int cArticulos::getStock() {
     return stock;
 }
-void cArticulos::setStock(int _stock) {
-    stock = _stock;
-}
+
+

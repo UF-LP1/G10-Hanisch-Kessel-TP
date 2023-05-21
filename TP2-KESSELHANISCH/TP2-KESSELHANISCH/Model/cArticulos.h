@@ -6,14 +6,13 @@ class cArticulos {
 protected:
     std::string nombre;
     float precio;
-    static int stock;
+    int stock;
     std::vector<cArticulos*>::iterator  inventario;
 public:
-    cArticulos(std::string _nombre, float _precio);
+    cArticulos(std::string _nombre, float _precio, int _stock);
     virtual ~cArticulos();
     std::string getNombre();
     float getPrecio();
-    static int getStock();
-    static void setStock(int _stock);
+    int getStock();
     virtual void mostrarInformacion() = 0;
 };

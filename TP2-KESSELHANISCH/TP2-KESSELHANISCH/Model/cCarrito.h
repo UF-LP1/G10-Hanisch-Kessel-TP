@@ -5,13 +5,14 @@
 
 class cCarrito {
 private:
-    std::vector<cArticulos*>listaArticulos;
+    std::vector<cArticulos*> listaArticulos;
 
 public:
     cCarrito();
     ~cCarrito();
-    void agregarArticuloCarrito(cArticulos* articulo);
-    void quitarArticulo(cArticulos* articulo);
+   
+    bool quitarArticulo(std::string artiQui, std::vector<cArticulos*> listaArticulos);
+    bool Buscar(std::vector<cArticulos*> articulo,std::string artiAgg,std:: vector<cArticulos*>listaArticulos);
     void mostrarCarrito();
     float calcularTotal();
 };

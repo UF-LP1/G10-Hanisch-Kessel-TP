@@ -9,13 +9,16 @@ class cCotillon : public cArticulos {
 private:
     std::string TipoCotillon;
     std::string Cartel;
+    
 public:
-    cCotillon(std::string _nombre, float _precio,std::string _TipoCotillon, std::string _Cartel);
+    cCotillon(std::string _nombre, float _precio, int _stock,std::string _TipoCotillon, std::string _Cartel);
     ~cCotillon();
 
   
     std::string get_tipoC();
     std::string get_cartel();
+    
+  
     void mostrarInformacion();
    
 };
